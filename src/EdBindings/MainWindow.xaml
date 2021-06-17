@@ -14,11 +14,12 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <Menu Grid.Row="0" Grid.Column="0">
+        <Menu Grid.Row="0" Grid.Column="0" Name="MainMenu">
             <MenuItem Header="_File">
                 <MenuItem Header="_Open Bindings" Click="FileOpenBindingsMenuItemClick" />
                 <MenuItem Header="E_xit" Click="FileExitMenuItemClick"/>
             </MenuItem>
+            <MenuItem Header="_Device Mappings" Name="DeviceMappingMenu"/>
         </Menu>
     </Grid>
 </Window>

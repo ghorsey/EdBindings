@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\EdBindings.Model.BindingsRaw\EdBindings.Model.BindingsRaw.csproj" />
+    <ProjectReference Include="..\..\src\EdBindings.Model.BindingsRaw\EdBindings.Model.csproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -1,0 +1,377 @@
+{
+  "name": "Logitec X56",
+  "controls": [
+    {
+      "deviceId": "SaitekX56Throttle",
+      "deviceName": "Throttle",
+      "controlLabel": "Left Dial Backward",
+      "controlValue": "Joy_30"
+    },
+    {
+      "deviceId": "SaitekX56Throttle",
+      "deviceName": "Throttle",
+      "controlLabel": "Left Dial Forward",
+      "controlValue": "Joy_31"
+    },
+    {
+      "deviceId": "SaitekX56Throttle",
+      "deviceName": "Throttle",
+      "controlLabel": "KI Up",
+      "controlValue": "Joy_28"
+    },
+    {
+      "deviceId": "SaitekX56Throttle",
+      "deviceName": "Throttle",
+      "controlLabel": "KI Down",
+      "controlValue": "Joy_29"
+    },
+    {
+      "deviceId": "SaitekX56Throttle",
+      "deviceName": "Throttle",
+      "controlLabel": "I",
+      "controlValue": "Joy_5"
+    },
+    {
+      "deviceId": "SaitekX56Throttle",
+      "deviceName": "Throttle",
+      "controlLabel": "H",
+      "controlValue": "Joy_4"
+    },
+    {
+      "deviceId": "SaitekX56Throttle",
+      "deviceName": "Throttle",
+      "controlLabel": "H4 Up",
+      "controlValue": "Joy_24"
+    },
+    {
+      "deviceId": "SaitekX56Throttle",
+      "deviceName": "Throttle",
+      "controlLabel": "H4 Right",
+      "controlValue": "Joy_25"
+    },
+    {
+      "deviceId": "SaitekX56Throttle",
+      "deviceName": "Throttle",
+      "controlLabel": "H4 Down",
+      "controlValue": "Joy_26"
+    },
+    {
+      "deviceId": "SaitekX56Throttle",
+      "deviceName": "Throttle",
+      "controlLabel": "H4 Left",
+      "controlValue": "Joy_27"
+    },
+    {
+      "deviceId": "SaitekX56Throttle",
+      "deviceName": "Throttle",
+      "controlLabel": "H3 Up",
+      "controlValue": "Joy_20"
+    },
+    {
+      "deviceId": "SaitekX56Throttle",
+      "deviceName": "Throttle",
+      "controlLabel": "H3 Right",
+      "controlValue": "Joy_21"
+    },
+    {
+      "deviceId": "SaitekX56Throttle",
+      "deviceName": "Throttle",
+      "controlLabel": "H3 Down",
+      "controlValue": "Joy_22"
+    },
+    {
+      "deviceId": "SaitekX56Throttle",
+      "deviceName": "Throttle",
+      "controlLabel": "H3 Left",
+      "controlValue": "Joy_23"
+    },
+    {
+      "deviceId": "SaitekX56Throttle",
+      "deviceName": "Throttle",
+      "controlLabel": "Thumbstick Up/Down",
+      "controlValue": "Joy_RYAxis"
+    },
+    {
+      "deviceId": "SaitekX56Throttle",
+      "deviceName": "Throttle",
+      "controlLabel": "Thumbstick Left/Right",
+      "controlValue": "Joy_RZAxis"
+    },
+    {
+      "deviceId": "SaitekX56Throttle",
+      "deviceName": "Throttle",
+      "controlLabel": "Thumbstick Press",
+      "controlValue": "Joy_32"
+    },
+    {
+      "deviceId": "SaitekX56Throttle",
+      "deviceName": "Throttle",
+      "controlLabel": "G Dial",
+      "controlValue": "Joy_RZAxis"
+    },
+    {
+      "deviceId": "SaitekX56Throttle",
+      "deviceName": "Throttle",
+      "controlLabel": "G Press",
+      "controlValue": "Joy_3"
+    },
+    {
+      "deviceId": "SaitekX56Throttle",
+      "deviceName": "Throttle",
+      "controlLabel": "F Dial",
+      "controlValue": "Joy_Zaxis"
+    },
+    {
+      "deviceId": "SaitekX56Throttle",
+      "deviceName": "Throttle",
+      "controlLabel": "F Press",
+      "controlValue": "Joy_2"
+    },
+    {
+      "deviceId": "SaitekX56Throttle",
+      "deviceName": "Throttle",
+      "controlLabel": "E",
+      "controlValue": "Joy_1"
+    },
+    {
+      "deviceId": "SaitekX56Throttle",
+      "deviceName": "Throttle",
+      "controlLabel": "Left Throttle",
+      "controlValue": "Joy_XAxis"
+    },
+    {
+      "deviceId": "SaitekX56Throttle",
+      "deviceName": "Throttle",
+      "controlLabel": "Right Throttle",
+      "controlValue": "Joy_YAxis"
+    },
+    {
+      "deviceId": "SaitekX56Throttle",
+      "deviceName": "Throttle",
+      "controlLabel": "SW 1",
+      "controlValue": "Joy_6"
+    },
+    {
+      "deviceId": "SaitekX56Throttle",
+      "deviceName": "Throttle",
+      "controlLabel": "SW 2",
+      "controlValue": "Joy_7"
+    },
+    {
+      "deviceId": "SaitekX56Throttle",
+      "deviceName": "Throttle",
+      "controlLabel": "SW 3",
+      "controlValue": "Joy_8"
+    },
+    {
+      "deviceId": "SaitekX56Throttle",
+      "deviceName": "Throttle",
+      "controlLabel": "SW 4",
+      "controlValue": "Joy_9"
+    },
+    {
+      "deviceId": "SaitekX56Throttle",
+      "deviceName": "Throttle",
+      "controlLabel": "SW 5",
+      "controlValue": "Joy_10"
+    },
+    {
+      "deviceId": "SaitekX56Throttle",
+      "deviceName": "Throttle",
+      "controlLabel": "SW 6",
+      "controlValue": "Joy_11"
+    },
+    {
+      "deviceId": "SaitekX56Throttle",
+      "deviceName": "Throttle",
+      "controlLabel": "Rty 3",
+      "controlValue": "Joy_UAxis"
+    },
+    {
+      "deviceId": "SaitekX56Throttle",
+      "deviceName": "Throttle",
+      "controlLabel": "Rty 4",
+      "controlValue": "Joy_VAxis"
+    },
+    {
+      "deviceId": "SaitekX56Throttle",
+      "deviceName": "Throttle",
+      "controlLabel": "TGL 1 Up",
+      "controlValue": "Joy_12"
+    },
+    {
+      "deviceId": "SaitekX56Throttle",
+      "deviceName": "Throttle",
+      "controlLabel": "TGL 1 Down",
+      "controlValue": "Joy_13"
+    },
+    {
+      "deviceId": "SaitekX56Throttle",
+      "deviceName": "Throttle",
+      "controlLabel": "TG 2 Up",
+      "controlValue": "Joy_14"
+    },
+    {
+      "deviceId": "SaitekX56Throttle",
+      "deviceName": "Throttle",
+      "controlLabel": "TG 2 Down",
+      "controlValue": "Joy_15"
+    },
+    {
+      "deviceId": "SaitekX56Throttle",
+      "deviceName": "Throttle",
+      "controlLabel": "TG 3 Up",
+      "controlValue": "Joy_16"
+    },
+    {
+      "deviceId": "SaitekX56Throttle",
+      "deviceName": "Throttle",
+      "controlLabel": "TG 3 Down",
+      "controlValue": "Joy_17"
+    },
+    {
+      "deviceId": "SaitekX56Throttle",
+      "deviceName": "Throttle",
+      "controlLabel": "TG 4 Up",
+      "controlValue": "Joy_18"
+    },
+    {
+      "deviceId": "SaitekX56Throttle",
+      "deviceName": "Throttle",
+      "controlLabel": "TG 4 Down",
+      "controlValue": "Joy_19"
+    },
+    {
+      "deviceId": "SaitekX56Joystick",
+      "deviceName": "Joystick",
+      "controlLabel": "A",
+      "controlValue": "Joy_2"
+    },
+    {
+      "deviceId": "SaitekX56Joystick",
+      "deviceName": "Joystick",
+      "controlLabel": "B",
+      "controlValue": "Joy_3"
+    },
+    {
+      "deviceId": "SaitekX56Joystick",
+      "deviceName": "Joystick",
+      "controlLabel": "POV Up",
+      "controlValue": "Joy_POV1Up"
+    },
+    {
+      "deviceId": "SaitekX56Joystick",
+      "deviceName": "Joystick",
+      "controlLabel": "POV Right",
+      "controlValue": "Joy_POV1Right"
+    },
+    {
+      "deviceId": "SaitekX56Joystick",
+      "deviceName": "Joystick",
+      "controlLabel": "POV Down",
+      "controlValue": "Joy_POV1Down"
+    },
+    {
+      "deviceId": "SaitekX56Joystick",
+      "deviceName": "Joystick",
+      "controlLabel": "POV Left",
+      "controlValue": "Joy_POV1Left"
+    },
+    {
+      "deviceId": "SaitekX56Joystick",
+      "deviceName": "Joystick",
+      "controlLabel": "H1 Up",
+      "controlValue": "Joy_7"
+    },
+    {
+      "deviceId": "SaitekX56Joystick",
+      "deviceName": "Joystick",
+      "controlLabel": "H1 Right",
+      "controlValue": "Joy_8"
+    },
+    {
+      "deviceId": "SaitekX56Joystick",
+      "deviceName": "Joystick",
+      "controlLabel": "H1 Down",
+      "controlValue": "Joy_9"
+    },
+    {
+      "deviceId": "SaitekX56Joystick",
+      "deviceName": "Joystick",
+      "controlLabel": "H1 Left",
+      "controlValue": "Joy_10"
+    },
+    {
+      "deviceId": "SaitekX56Joystick",
+      "deviceName": "Joystick",
+      "controlLabel": "H2 Up",
+      "controlValue": "Joy_11"
+    },
+    {
+      "deviceId": "SaitekX56Joystick",
+      "deviceName": "Joystick",
+      "controlLabel": "H2 Right",
+      "controlValue": "Joy_12"
+    },
+    {
+      "deviceId": "SaitekX56Joystick",
+      "deviceName": "Joystick",
+      "controlLabel": "H2 Down",
+      "controlValue": "Joy_13"
+    },
+    {
+      "deviceId": "SaitekX56Joystick",
+      "deviceName": "Joystick",
+      "controlLabel": "H2 Left",
+      "controlValue": "Joy_14"
+    },
+    {
+      "deviceId": "SaitekX56Joystick",
+      "deviceName": "Joystick",
+      "controlLabel": "Trigger",
+      "controlValue": "Joy_1"
+    },
+    {
+      "deviceId": "SaitekX56Joystick",
+      "deviceName": "Joystick",
+      "controlLabel": "C Up/Down",
+      "controlValue": "Joy_RYAxis"
+    },
+    {
+      "deviceId": "SaitekX56Joystick",
+      "deviceName": "Joystick",
+      "controlLabel": "C Left/Right",
+      "controlValue": "Joy_RXAxis"
+    },
+    {
+      "deviceId": "SaitekX56Joystick",
+      "deviceName": "Joystick",
+      "controlLabel": "C Press",
+      "controlValue": "Joy_4"
+    },
+    {
+      "deviceId": "SaitekX56Joystick",
+      "deviceName": "Joystick",
+      "controlLabel": "Pinky Trigger",
+      "controlValue": "Joy_6"
+    },
+    {
+      "deviceId": "SaitekX56Joystick",
+      "deviceName": "Joystick",
+      "controlLabel": "Stick Forward/Backward",
+      "controlValue": "Joy_YAxis"
+    },
+    {
+      "deviceId": "SaitekX56Joystick",
+      "deviceName": "Joystick",
+      "controlLabel": "Stick Left/Right",
+      "controlValue": "Joy_XAxis"
+    },
+    {
+      "deviceId": "SaitekX56Joystick",
+      "deviceName": "Joystick",
+      "controlLabel": "Stick Rotate",
+      "controlValue": "Joy_RZAxis"
+    },
+  ]
+}
