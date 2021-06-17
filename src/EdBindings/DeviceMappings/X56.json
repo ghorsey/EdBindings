@@ -95,7 +95,7 @@
       "deviceId": "SaitekX56Throttle",
       "deviceName": "Throttle",
       "controlLabel": "Thumbstick Left/Right",
-      "controlValue": "Joy_RZAxis"
+      "controlValue": "Joy_RXAxis"
     },
     {
       "deviceId": "SaitekX56Throttle",

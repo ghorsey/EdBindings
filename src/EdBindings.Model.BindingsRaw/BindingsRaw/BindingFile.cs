@@ -8,6 +8,7 @@
 
     public record BindingFile
     {
+        public string FileName { get; init; }
         public string KeyboardLayout { get; init; }
 
         public List<Binding> Bindings { get; init; } = new List<Binding>();
@@ -21,6 +22,7 @@
 
             return new BindingFile()
             {
+                FileName = bindingFile,
                 KeyboardLayout = document.Descendants("KeyboardLayout").First().Value,
                 Bindings = bindings
             };

@@ -10,6 +10,7 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
@@ -21,5 +22,22 @@
             </MenuItem>
             <MenuItem Header="_Device Mappings" Name="DeviceMappingMenu"/>
         </Menu>
+        <DataGrid Grid.Row="1" Name="KeyBindingDataGrid" AlternatingRowBackground="LightBlue" AlternationCount="2" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Operation" Binding="{Binding Name}"/>
+                <DataGridTextColumn Header="Primary Device" Binding="{Binding PrimaryDevice}"/>
+                <DataGridTextColumn Header="Primary Key" Binding="{Binding PrimaryKey}"/>
+                <DataGridTextColumn Header="Secondary Device" Binding="{Binding SecondaryDevice}"/>
+                <DataGridTextColumn Header="Secondary Key" Binding="{Binding SecondaryKey}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <StatusBar Grid.Row="2">
+            <StatusBarItem Content="SampleContent" Name="DeviceFileStatusBar"/>
+            <Separator/>
+            <StatusBarItem Content="en" Name="KeyboardLayoutStatusBar"/>
+            <StatusBarItem Content="Open a Bindings File" Name="BindingFileStatusBar"/>
+
+        </StatusBar>
     </Grid>
 </Window>

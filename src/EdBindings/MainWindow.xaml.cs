@@ -6,20 +6,11 @@
     using Newtonsoft.Json;
 
     using System;
-    using System.Collections.Generic;
+    using System.Collections.ObjectModel;
     using System.IO;
     using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
     using System.Windows;
     using System.Windows.Controls;
-    using System.Windows.Data;
-    using System.Windows.Documents;
-    using System.Windows.Input;
-    using System.Windows.Media;
-    using System.Windows.Media.Imaging;
-    using System.Windows.Navigation;
-    using System.Windows.Shapes;
 
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -27,8 +18,9 @@
     public partial class MainWindow : Window
     {
 
-        private BindingFile BindingFile;
-        private DeviceMap DeviceMap;
+        private BindingFile BindingFile { get; set; }
+        private DeviceMap DeviceMap { get; set; }
+        private ObservableCollection<KeyBindingView> KeyBindings { get; set; }
 
         public MainWindow()
         {
@@ -72,6 +64,8 @@
                 ApplicationSettings.Default.DeviceMapSelection = index;
                 ApplicationSettings.Default.Save();
             }
+            DeviceFileStatusBar.Content = $"Device Mapping: {menuItem.Header}";
+            this.ProcessBindingFile();
 
         }
 
@@ -83,10 +77,28 @@
             dialog.DefaultExt = ".binds";
             dialog.InitialDirectory = Environment.ExpandEnvironmentVariables(@"%localappdata%\Frontier Developments\Elite Dangerous\Options\Bindings");
             dialog.Filter = "Bindings (*.binds)|*.binds|All files (*.*)|*.*";
-            if(dialog.ShowDialog() == true)
+            if (dialog.ShowDialog() == true)
             {
                 this.BindingFile = BindingFile.Open(dialog.FileName);
+                this.ProcessBindingFile();
             }
+        }
+
+
+        private void ProcessBindingFile()
+        {
+            if (this.BindingFile == null)
+            {
+                return;
+            }
+
+            var justBindingGroups = this.BindingFile.Bindings.Where(binding => binding is EdBindings.Model.BindingsRaw.Bindings.BindingGroup).ToList();
+
+            this.KeyBindings = new ObservableCollection<KeyBindingView>(justBindingGroups.Select(group => KeyBindingView.MakeKeyBindingView((EdBindings.Model.BindingsRaw.Bindings.BindingGroup)group, this.DeviceMap)).ToList());
+
+            this.KeyBindingDataGrid.ItemsSource = this.KeyBindings;
+            this.BindingFileStatusBar.Content = $"Bindings: {this.BindingFile.FileName}";
+            this.KeyboardLayoutStatusBar.Content = this.BindingFile.KeyboardLayout;
         }
     }
 }
