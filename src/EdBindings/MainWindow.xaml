@@ -22,6 +22,9 @@
                 <MenuItem Header="E_xit" Click="FileExitMenuItemClick"/>
             </MenuItem>
             <MenuItem Header="_Device Mappings" Name="DeviceMappingMenu"/>
+            <MenuItem Header="_Help">
+                <MenuItem Header="_About" Click="MenuItemClick"/>
+            </MenuItem>
         </Menu>
         <TextBox Grid.Row="1" Name="txtFilter" KeyUp="TxtFilterKeyUp" Text="Filter..." GotFocus="TxtFilterGotFocus" LostFocus="TxtFilterLostFocus"/>
         <DataGrid Grid.Row="2" Name="KeyBindingDataGrid" AlternatingRowBackground="LightBlue" AlternationCount="2" AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False" IsReadOnly="True">

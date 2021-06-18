@@ -148,5 +148,12 @@
             }
 
         }
+
+        private void MenuItemClick(object sender, RoutedEventArgs e)
+        {
+            var dialog = new AboutWindow();
+            dialog.Owner = this;
+            dialog.ShowDialog();
+        }
     }
 }
