@@ -5,10 +5,12 @@
     <TargetFramework>net5.0-windows</TargetFramework>
     <UseWPF>true</UseWPF>
     <MinVerTagPrefix>v</MinVerTagPrefix>
+    <ApplicationIcon />
+    <StartupObject />
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="joystick.png" />
+    <None Remove="joystick.ico" />
     <None Remove="joystick.svg" />
   </ItemGroup>
 
@@ -25,7 +27,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="joystick.png" />
+    <Resource Include="joystick.ico" />
   </ItemGroup>
 
   <ItemGroup>
