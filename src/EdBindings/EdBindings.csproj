@@ -8,6 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="joystick.png" />
+    <None Remove="joystick.svg" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="MinVer" Version="2.5.0">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -17,6 +22,11 @@
 
   <ItemGroup>
     <ProjectReference Include="..\EdBindings.Model.BindingsRaw\EdBindings.Model.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="joystick.png" />
+    <Resource Include="joystick.svg" />
   </ItemGroup>
 
   <ItemGroup>
