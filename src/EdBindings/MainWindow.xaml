@@ -9,20 +9,22 @@
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <Menu Grid.Row="0" Grid.Column="0" Name="MainMenu">
+        <Menu Grid.Row="0" Grid.Column="1" Name="MainMenu">
             <MenuItem Header="_File">
                 <MenuItem Header="_Open Bindings" Click="FileOpenBindingsMenuItemClick" />
                 <MenuItem Header="E_xit" Click="FileExitMenuItemClick"/>
             </MenuItem>
             <MenuItem Header="_Device Mappings" Name="DeviceMappingMenu"/>
         </Menu>
-        <DataGrid Grid.Row="1" Name="KeyBindingDataGrid" AlternatingRowBackground="LightBlue" AlternationCount="2" AutoGenerateColumns="False">
+        <TextBox Grid.Row="1" Name="txtFilter" KeyUp="TxtFilterKeyUp" Text="Filter..." GotFocus="TxtFilterGotFocus" LostFocus="TxtFilterLostFocus"/>
+        <DataGrid Grid.Row="2" Name="KeyBindingDataGrid" AlternatingRowBackground="LightBlue" AlternationCount="2" AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False" IsReadOnly="True">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Operation" Binding="{Binding Name}"/>
                 <DataGridTextColumn Header="Primary Device" Binding="{Binding PrimaryDevice}"/>
@@ -32,16 +34,12 @@
             </DataGrid.Columns>
         </DataGrid>
 
-        <StatusBar Grid.Row="2">
+        <StatusBar Grid.Row="3">
             <StatusBarItem Content="SampleContent" Name="DeviceFileStatusBar"/>
             <Separator/>
-            <StatusBarItem Content="en" Name="KeyboardLayoutStatusBar"/>
+            <StatusBarItem Content="Keyboard Layout" Name="KeyboardLayoutStatusBar"/>
             <Separator/>
             <StatusBarItem Content="Open a Bindings File" Name="BindingFileStatusBar"/>
-            <Separator/>
-            <StatusBarItem Content="Count:"/>
-            <StatusBarItem Name="TotalItemsStatusBar"/>
-
         </StatusBar>
     </Grid>
 </Window>

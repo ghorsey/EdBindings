@@ -373,5 +373,11 @@
       "controlLabel": "Stick Rotate",
       "controlValue": "Joy_RZAxis"
     },
+    {
+      "deviceId": "SaitekX56Joystick",
+      "deviceName": "Joystick",
+      "controlLabel": "Pinky Button",
+      "controlValue": "Joy_5"
+    },
   ]
 }

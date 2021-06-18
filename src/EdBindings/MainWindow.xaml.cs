@@ -6,21 +6,29 @@
     using Newtonsoft.Json;
 
     using System;
+    using System.Collections.Generic;
     using System.Collections.ObjectModel;
+    using System.ComponentModel;
     using System.IO;
     using System.Linq;
     using System.Windows;
     using System.Windows.Controls;
+    using System.Windows.Data;
 
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
     {
+        private const string placeHolderText = "Filter...";
 
         private BindingFile BindingFile { get; set; }
+
         private DeviceMap DeviceMap { get; set; }
-        private ObservableCollection<KeyBindingView> KeyBindings { get; set; }
+
+        private CollectionViewSource DataSource { get; set; }
+
+        private ICollectionView KeyBindings { get; set; }
 
         public MainWindow()
         {
@@ -93,13 +101,52 @@
             }
 
             var justBindingGroups = this.BindingFile.Bindings.Where(binding => binding is EdBindings.Model.BindingsRaw.Bindings.BindingGroup).ToList();
-
-            this.KeyBindings = new ObservableCollection<KeyBindingView>(justBindingGroups.Select(group => KeyBindingView.MakeKeyBindingView((EdBindings.Model.BindingsRaw.Bindings.BindingGroup)group, this.DeviceMap)).ToList());
+            var dataSource = justBindingGroups.Select(group => KeyBindingView.MakeKeyBindingView((EdBindings.Model.BindingsRaw.Bindings.BindingGroup)group, this.DeviceMap)).ToList();
+            var filterable = new CollectionViewSource() { Source = new ObservableCollection<KeyBindingView>(dataSource) };
+            this.KeyBindings = filterable.View;
 
             this.KeyBindingDataGrid.ItemsSource = this.KeyBindings;
             this.BindingFileStatusBar.Content = Path.GetFileName(this.BindingFile.FileName);
             this.KeyboardLayoutStatusBar.Content = this.BindingFile.KeyboardLayout;
-            this.TotalItemsStatusBar.Content = this.KeyBindings.Count.ToString();
+            this.txtFilter.Text = placeHolderText;
+        }
+
+        private void TxtFilterKeyUp(object sender, System.Windows.Input.KeyEventArgs e)
+        {
+            var p = new Predicate<object>(item =>
+            {
+                var binding = (KeyBindingView)item;
+                return binding.Name.Contains(this.txtFilter.Text, StringComparison.InvariantCultureIgnoreCase) 
+                || binding.PrimaryKey.Contains(this.txtFilter.Text, StringComparison.InvariantCultureIgnoreCase)
+                || (binding.SecondaryKey?.Contains(this.txtFilter.Text, StringComparison.InvariantCultureIgnoreCase) ?? false);
+            });
+
+            if(string.IsNullOrWhiteSpace(this.txtFilter.Text))
+            {
+                this.KeyBindings.Filter = null;
+            }
+            else
+            {
+                this.KeyBindings.Filter = p;
+            }
+        }
+
+        private void TxtFilterGotFocus(object sender, RoutedEventArgs e)
+        {
+            if (this.txtFilter.Text == placeHolderText)
+            {
+                this.txtFilter.Text = string.Empty;
+            }
+
+        }
+
+        private void TxtFilterLostFocus(object sender, RoutedEventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(this.txtFilter.Text))
+            {
+                this.txtFilter.Text = placeHolderText;
+            }
+
         }
     }
 }
