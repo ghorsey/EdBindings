@@ -149,7 +149,7 @@
         {
             "{3C67513D-01DD-4637-8A68-80971EB9504F}:_3F63E42810784047A418ADA6291EEB04"
             {
-            "DefaultLocation" = "8:[ProgramFilesFolder][Manufacturer]\\[ProductName]"
+            "DefaultLocation" = "8:[ProgramFiles64Folder][Manufacturer]\\[ProductName]"
             "Name" = "8:#1925"
             "AlwaysCreate" = "11:FALSE"
             "Condition" = "8:"
@@ -208,8 +208,8 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:EDBindings"
-        "ProductCode" = "8:{929E2327-9E66-41FC-8F07-AA4E1B3F0D65}"
-        "PackageCode" = "8:{361D1C1A-466A-4501-99CB-E74A7C0DB150}"
+        "ProductCode" = "8:{D69023C5-CBB6-4809-B763-B7587D715358}"
+        "PackageCode" = "8:{0BEB4EB3-B5AC-4E98-9D5D-62CCAD04EDAA}"
         "UpgradeCode" = "8:{6FF94E4B-D45A-4600-AFC7-8CB341A68BC6}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -230,7 +230,7 @@
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"
-        "TargetPlatform" = "3:0"
+        "TargetPlatform" = "3:1"
         "PreBuildEvent" = "8:"
         "PostBuildEvent" = "8:"
         "RunPostBuildEvent" = "3:0"
