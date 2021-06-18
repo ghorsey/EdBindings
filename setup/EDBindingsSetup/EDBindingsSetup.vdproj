@@ -208,8 +208,8 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:EDBindings"
-        "ProductCode" = "8:{215CF29D-433C-4461-A53F-9D1309D78D34}"
-        "PackageCode" = "8:{4AFC9921-26FD-4CFF-8567-BE17F5A44EB0}"
+        "ProductCode" = "8:{79C7FAF7-1647-45D2-B00E-C23470331841}"
+        "PackageCode" = "8:{E07A6659-465C-489C-862C-A55C333CEF52}"
         "UpgradeCode" = "8:{6FF94E4B-D45A-4600-AFC7-8CB341A68BC6}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
