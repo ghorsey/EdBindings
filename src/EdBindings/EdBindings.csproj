@@ -26,7 +26,6 @@
 
   <ItemGroup>
     <Resource Include="joystick.png" />
-    <Resource Include="joystick.svg" />
   </ItemGroup>
 
   <ItemGroup>
