@@ -36,7 +36,11 @@
             <StatusBarItem Content="SampleContent" Name="DeviceFileStatusBar"/>
             <Separator/>
             <StatusBarItem Content="en" Name="KeyboardLayoutStatusBar"/>
+            <Separator/>
             <StatusBarItem Content="Open a Bindings File" Name="BindingFileStatusBar"/>
+            <Separator/>
+            <StatusBarItem Content="Count:"/>
+            <StatusBarItem Name="TotalItemsStatusBar"/>
 
         </StatusBar>
     </Grid>

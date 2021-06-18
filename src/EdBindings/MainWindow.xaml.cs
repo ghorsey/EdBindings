@@ -97,8 +97,9 @@
             this.KeyBindings = new ObservableCollection<KeyBindingView>(justBindingGroups.Select(group => KeyBindingView.MakeKeyBindingView((EdBindings.Model.BindingsRaw.Bindings.BindingGroup)group, this.DeviceMap)).ToList());
 
             this.KeyBindingDataGrid.ItemsSource = this.KeyBindings;
-            this.BindingFileStatusBar.Content = $"Bindings: {this.BindingFile.FileName}";
+            this.BindingFileStatusBar.Content = Path.GetFileName(this.BindingFile.FileName);
             this.KeyboardLayoutStatusBar.Content = this.BindingFile.KeyboardLayout;
+            this.TotalItemsStatusBar.Content = this.KeyBindings.Count.ToString();
         }
     }
 }
