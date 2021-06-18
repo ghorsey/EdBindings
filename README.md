@@ -3,6 +3,8 @@
 This is a little windows application that reads the key bindings file
 so that it can be searchable and mappable to keys.
 
+<img src="https://raw.githubusercontent.com/ghorsey/EdBindings/main/assets/edbindings.screenshot.gif">
+
 ## Features
 
 * Support mapping device codes in Elite to actual labels of device (For example [X56 Bindings](https://www.edrefcard.info/device/SaitekX56).
