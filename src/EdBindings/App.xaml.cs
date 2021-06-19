@@ -1,7 +1,7 @@
-﻿using System.Windows;
-
-namespace EdBindings
+﻿namespace EdBindings
 {
+    using System.Windows;
+
     /// <summary>
     /// Interaction logic for App.xaml
     /// </summary>
