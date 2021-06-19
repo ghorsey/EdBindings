@@ -28,13 +28,13 @@
     {
       "deviceId": "SaitekX56Throttle",
       "deviceName": "Throttle",
-      "controlLabel": "I",
+      "controlLabel": "H",
       "controlValue": "Joy_5"
     },
     {
       "deviceId": "SaitekX56Throttle",
       "deviceName": "Throttle",
-      "controlLabel": "H",
+      "controlLabel": "I",
       "controlValue": "Joy_4"
     },
     {
