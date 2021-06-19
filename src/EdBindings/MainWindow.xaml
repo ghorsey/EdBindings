@@ -29,7 +29,7 @@
         <TextBox Grid.Row="1" Name="txtFilter" KeyUp="TxtFilterKeyUp" Text="Filter..." GotFocus="TxtFilterGotFocus" LostFocus="TxtFilterLostFocus"/>
         <DataGrid Grid.Row="2" Name="KeyBindingDataGrid" AlternatingRowBackground="LightBlue" AlternationCount="2" AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False" IsReadOnly="True">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="Operation" Binding="{Binding Name}"/>
+                <DataGridTextColumn Header="Action" Binding="{Binding Action}"/>
                 <DataGridTextColumn Header="Primary Device" Binding="{Binding PrimaryDevice}"/>
                 <DataGridTextColumn Header="Primary Key" Binding="{Binding PrimaryKey}"/>
                 <DataGridTextColumn Header="Secondary Device" Binding="{Binding SecondaryDevice}"/>

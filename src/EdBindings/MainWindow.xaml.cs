@@ -115,7 +115,7 @@
             var p = new Predicate<object>(item =>
             {
                 var binding = (KeyBindingView)item;
-                return binding.Name.Contains(this.txtFilter.Text, StringComparison.InvariantCultureIgnoreCase) 
+                return binding.Action.Contains(this.txtFilter.Text, StringComparison.InvariantCultureIgnoreCase) 
                 || binding.PrimaryKey.Contains(this.txtFilter.Text, StringComparison.InvariantCultureIgnoreCase)
                 || (binding.SecondaryKey?.Contains(this.txtFilter.Text, StringComparison.InvariantCultureIgnoreCase) ?? false);
             });
