@@ -167,7 +167,9 @@
                 var binding = (KeyBindingView)item;
                 return binding.Action.Contains(this.txtFilter.Text, StringComparison.InvariantCultureIgnoreCase) 
                 || binding.PrimaryKey.Contains(this.txtFilter.Text, StringComparison.InvariantCultureIgnoreCase)
-                || (binding.SecondaryKey?.Contains(this.txtFilter.Text, StringComparison.InvariantCultureIgnoreCase) ?? false);
+                || (binding.SecondaryKey?.Contains(this.txtFilter.Text, StringComparison.InvariantCultureIgnoreCase) ?? false)
+                || binding.Area.Contains(this.txtFilter.Text, StringComparison.InvariantCultureIgnoreCase)
+                || binding.Category.Contains(this.txtFilter.Text, StringComparison.InvariantCultureIgnoreCase);
             });
 
             if(string.IsNullOrWhiteSpace(this.txtFilter.Text))
