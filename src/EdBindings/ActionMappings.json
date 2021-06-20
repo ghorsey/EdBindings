@@ -1,0 +1,2294 @@
+[
+  {
+    "code": "UI_Up",
+    "area": "General Controls",
+    "category": "Interface Mode",
+    "action": "UI Panel Up"
+  },
+  {
+    "code": "UI_Down",
+    "area": "General Controls",
+    "category": "Interface Mode",
+    "action": "UI Panel Down"
+  },
+  {
+    "code": "UI_Left",
+    "area": "General Controls",
+    "category": "Interface Mode",
+    "action": "UI Panel Left"
+  },
+  {
+    "code": "UI_Right",
+    "area": "General Controls",
+    "category": "Interface Mode",
+    "action": "UI Panel Right"
+  },
+  {
+    "code": "UI_Select",
+    "area": "General Controls",
+    "category": "Interface Mode",
+    "action": "UI Panel Select"
+  },
+  {
+    "code": "UI_Back",
+    "area": "General Controls",
+    "category": "Interface Mode",
+    "action": "UI Panel Back"
+  },
+  {
+    "code": "UI_Toggle",
+    "area": "General Controls",
+    "category": "Interface Mode",
+    "action": "UI Nested Toggle"
+  },
+  {
+    "code": "CycleNextPanel",
+    "area": "General Controls",
+    "category": "Interface Mode",
+    "action": "Next Panel Tab"
+  },
+  {
+    "code": "CyclePreviousPanel",
+    "area": "General Controls",
+    "category": "Interface Mode",
+    "action": "Previous Panel Tab"
+  },
+  {
+    "code": "CycleNextPage",
+    "area": "General Controls",
+    "category": "Interface Mode",
+    "action": "Next Page"
+  },
+  {
+    "code": "CyclePreviousPage",
+    "area": "General Controls",
+    "category": "Interface Mode",
+    "action": "Previous Page"
+  },
+  {
+    "code": "CamPitchAxis",
+    "area": "General Controls",
+    "category": "Galaxy Map",
+    "action": "Galaxy Cam Pitch Axis"
+  },
+  {
+    "code": "CamPitchUp",
+    "area": "General Controls",
+    "category": "Galaxy Map",
+    "action": "Galaxy Cam Pitch Up"
+  },
+  {
+    "code": "CamPitchDown",
+    "area": "General Controls",
+    "category": "Galaxy Map",
+    "action": "Galaxy Cam Pitch Down"
+  },
+  {
+    "code": "CamYawAxis",
+    "area": "General Controls",
+    "category": "Galaxy Map",
+    "action": "Galaxy Cam Yaw Axis"
+  },
+  {
+    "code": "CamYawLeft",
+    "area": "General Controls",
+    "category": "Galaxy Map",
+    "action": "Galaxy Cam Yaw Left"
+  },
+  {
+    "code": "CamYawRight",
+    "area": "General Controls",
+    "category": "Galaxy Map",
+    "action": "Galaxy Cam Yaw Right"
+  },
+  {
+    "code": "CamTranslateYAxis",
+    "area": "General Controls",
+    "category": "Galaxy Map",
+    "action": "Galaxy Cam Translate Y-Axis"
+  },
+  {
+    "code": "CamTranslateForward",
+    "area": "General Controls",
+    "category": "Galaxy Map",
+    "action": "Galaxy Cam Translate Forward"
+  },
+  {
+    "code": "CamTranslateBackward",
+    "area": "General Controls",
+    "category": "Galaxy Map",
+    "action": "Galaxy Cam Translate Backward"
+  },
+  {
+    "code": "CamTranslateXAxis",
+    "area": "General Controls",
+    "category": "Galaxy Map",
+    "action": "Galaxy Cam Translate X-Axis"
+  },
+  {
+    "code": "CamTranslateLeft",
+    "area": "General Controls",
+    "category": "Galaxy Map",
+    "action": "Galaxy Cam Translate Left"
+  },
+  {
+    "code": "CamTranslateRight",
+    "area": "General Controls",
+    "category": "Galaxy Map",
+    "action": "Galaxy Cam Translate Right"
+  },
+  {
+    "code": "CamTranslateZAxis",
+    "area": "General Controls",
+    "category": "Galaxy Map",
+    "action": "Galaxy  Cam Translate Z-Axis"
+  },
+  {
+    "code": "CamTranslateUp",
+    "area": "General Controls",
+    "category": "Galaxy Map",
+    "action": "Galaxy Cam Translate Up"
+  },
+  {
+    "code": "CamTranslateDown",
+    "area": "General Controls",
+    "category": "Galaxy Map",
+    "action": "Galaxy Cam Translate Down"
+  },
+  {
+    "code": "CamZoomAxis",
+    "area": "General Controls",
+    "category": "Galaxy Map",
+    "action": "Galaxy Cam Zoom Axis"
+  },
+  {
+    "code": "CamZoomIn",
+    "area": "General Controls",
+    "category": "Galaxy Map",
+    "action": "Galaxy Cam Zoom In"
+  },
+  {
+    "code": "CamZoomOut",
+    "area": "General Controls",
+    "category": "Galaxy Map",
+    "action": "Galaxy Cam Zoom Out"
+  },
+  {
+    "code": "CamTranslateZHold",
+    "area": "General Controls",
+    "category": "Galaxy Map",
+    "action": "Galaxy Cam Set Y-Axis to Z-Axis"
+  },
+  {
+    "code": "GalaxyMapHome",
+    "area": "General Controls",
+    "category": "Galaxy Map",
+    "action": "Galaxy Cam Select Current System"
+  },
+  {
+    "code": "PhotoCameraToggle",
+    "area": "General Controls",
+    "category": "Camera Suite",
+    "action": "Ship - Toggle Camera Suite"
+  },
+  {
+    "code": "PhotoCameraToggle_Buggy",
+    "area": "General Controls",
+    "category": "Camera Suite",
+    "action": "SRV - Toggle Camera Suite"
+  },
+  {
+    "code": "PhotoCameraToggle_Humanoid",
+    "area": "General Controls",
+    "category": "Camera Suite",
+    "action": "Command - Toggle Camera Suite"
+  },
+  {
+    "code": "VanityCameraScrollLeft",
+    "area": "General Controls",
+    "category": "Camera Suite",
+    "action": "Previous Camera"
+  },
+  {
+    "code": "VanityCameraScrollRight",
+    "area": "General Controls",
+    "category": "Camera Suite",
+    "action": "Next Camera"
+  },
+  {
+    "code": "ToggleFreeCam",
+    "area": "General Controls",
+    "category": "Camera Suite",
+    "action": "Enter Free Camera"
+  },
+  {
+    "code": "VanityCameraOne",
+    "area": "General Controls",
+    "category": "Camera Suite",
+    "action": "Camera - Cockpit Front"
+  },
+  {
+    "code": "VanityCameraTwo",
+    "area": "General Controls",
+    "category": "Camera Suite",
+    "action": "Camera - Cockpit Back"
+  },
+  {
+    "code": "VanityCameraThree",
+    "area": "General Controls",
+    "category": "Camera Suite",
+    "action": "Camera - CMDR 1"
+  },
+  {
+    "code": "VanityCameraFour",
+    "area": "General Controls",
+    "category": "Camera Suite",
+    "action": "Camera - CMDR 2"
+  },
+  {
+    "code": "VanityCameraFive",
+    "area": "General Controls",
+    "category": "Camera Suite",
+    "action": "Camera - Co-Pilot 1"
+  },
+  {
+    "code": "VanityCameraSix",
+    "area": "General Controls",
+    "category": "Camera Suite",
+    "action": "Camera - Co-Pilot 2"
+  },
+  {
+    "code": "VanityCameraSeven",
+    "area": "General Controls",
+    "category": "Camera Suite",
+    "action": "Camera - Front"
+  },
+  {
+    "code": "VanityCameraEight",
+    "area": "General Controls",
+    "category": "Camera Suite",
+    "action": "Camera - Back"
+  },
+  {
+    "code": "VanityCameraNine",
+    "area": "General Controls",
+    "category": "Camera Suite",
+    "action": "Camera - Low"
+  },
+  {
+    "code": "FreeCamToggleHUD",
+    "area": "General Controls",
+    "category": "Free Camera",
+    "action": "Toggle HUD"
+  },
+  {
+    "code": "FreeCamSpeedInc",
+    "area": "General Controls",
+    "category": "Free Camera",
+    "action": "Increase Speed"
+  },
+  {
+    "code": "FreeCamSpeedDec",
+    "area": "General Controls",
+    "category": "Free Camera",
+    "action": "Decrease Speed"
+  },
+  {
+    "code": "MoveFreeCamY",
+    "area": "General Controls",
+    "category": "Free Camera",
+    "action": "Forward Axis"
+  },
+  {
+    "code": "ToggleReverseThrottleInputFreeCam",
+    "area": "General Controls",
+    "category": "Free Camera",
+    "action": "Forward Only Throttle Reverse"
+  },
+  {
+    "code": "MoveFreeCamForward",
+    "area": "General Controls",
+    "category": "Free Camera",
+    "action": "Move Forward"
+  },
+  {
+    "code": "MoveFreeCamBackwards",
+    "area": "General Controls",
+    "category": "Free Camera",
+    "action": "Move Backward"
+  },
+  {
+    "code": "MoveFreeCamX",
+    "area": "General Controls",
+    "category": "Free Camera",
+    "action": "Lateral Axis"
+  },
+  {
+    "code": "MoveFreeCamRight",
+    "area": "General Controls",
+    "category": "Free Camera",
+    "action": "Move Right"
+  },
+  {
+    "code": "MoveFreeCamLeft",
+    "area": "General Controls",
+    "category": "Free Camera",
+    "action": "Move Left"
+  },
+  {
+    "code": "MoveFreeCamZ",
+    "area": "General Controls",
+    "category": "Free Camera",
+    "action": "Lift Axis"
+  },
+  {
+    "code": "MoveFreeCamUpAxis",
+    "area": "General Controls",
+    "category": "Free Camera",
+    "action": "Move Up (Analogue)"
+  },
+  {
+    "code": "MoveFreeCamDownAxis",
+    "area": "General Controls",
+    "category": "Free Camera",
+    "action": "Move Down (Analogue)"
+  },
+  {
+    "code": "MoveFreeCamUp",
+    "area": "General Controls",
+    "category": "Free Camera",
+    "action": "Move Up"
+  },
+  {
+    "code": "MoveFreeCamDown",
+    "area": "General Controls",
+    "category": "Free Camera",
+    "action": "Move Down"
+  },
+  {
+    "code": "PitchCamera",
+    "area": "General Controls",
+    "category": "Free Camera",
+    "action": "Pitch Axis"
+  },
+  {
+    "code": "PitchCameraUp",
+    "area": "General Controls",
+    "category": "Free Camera",
+    "action": "Pitch Up"
+  },
+  {
+    "code": "PitchCameraDown",
+    "area": "General Controls",
+    "category": "Free Camera",
+    "action": "Pitch Down"
+  },
+  {
+    "code": "YawCamera",
+    "area": "General Controls",
+    "category": "Free Camera",
+    "action": "Yaw Axis"
+  },
+  {
+    "code": "YawCameraLeft",
+    "area": "General Controls",
+    "category": "Free Camera",
+    "action": "Yaw Left"
+  },
+  {
+    "code": "YawCameraRight",
+    "area": "General Controls",
+    "category": "Free Camera",
+    "action": "Yaw Right"
+  },
+  {
+    "code": "RollCamera",
+    "area": "General Controls",
+    "category": "Free Camera",
+    "action": "Roll Axis"
+  },
+  {
+    "code": "RollCameraLeft",
+    "area": "General Controls",
+    "category": "Free Camera",
+    "action": "Roll Left"
+  },
+  {
+    "code": "RollCameraRight",
+    "area": "General Controls",
+    "category": "Free Camera",
+    "action": "Roll Right"
+  },
+  {
+    "code": "ToggleRotationLock",
+    "area": "General Controls",
+    "category": "Free Camera",
+    "action": "Stabiliser On/Off Toggle"
+  },
+  {
+    "code": "FixCameraRelativetoggle",
+    "area": "General Controls",
+    "category": "Free Camera",
+    "action": "Camera / Ship Controls Toggle"
+  },
+  {
+    "code": "FixCameraWorldToggle",
+    "area": "General Controls",
+    "category": "Free Camera",
+    "action": "Attach / Detach Camera"
+  },
+  {
+    "code": "QuitCamera",
+    "area": "General Controls",
+    "category": "Free Camera",
+    "action": "Exit Free Camera"
+  },
+  {
+    "code": "ToggleAdvanceMode",
+    "area": "General Controls",
+    "category": "Free Camera",
+    "action": "Zoom / Blur Toggle"
+  },
+  {
+    "code": "FreeCamZoomIn",
+    "area": "General Controls",
+    "category": "Free Camera",
+    "action": "Increase Zoom/Focus"
+  },
+  {
+    "code": "FreeCamZoomOut",
+    "area": "General Controls",
+    "category": "Free Camera",
+    "action": "Decrease Zoom/Focus"
+  },
+  {
+    "code": "FStopDec",
+    "area": "General Controls",
+    "category": "Free Camera",
+    "action": "Decrease Blur"
+  },
+  {
+    "code": "FStopInc",
+    "area": "General Controls",
+    "category": "Free Camera",
+    "action": "Increase Blur"
+  },
+  {
+    "code": "CommanderCreator_Undo",
+    "area": "General Controls ",
+    "category": "Holo-Me",
+    "action": "Undo"
+  },
+  {
+    "code": "CommanderCreator_Redo",
+    "area": "General Controls ",
+    "category": "Holo-Me",
+    "action": "Redo"
+  },
+  {
+    "code": "CommanderCreator_Rotation_MouseToggle",
+    "area": "General Controls ",
+    "category": "Holo-Me",
+    "action": "Toggle Mouse Rotation"
+  },
+  {
+    "code": "CommanderCreator_Rotation",
+    "area": "General Controls",
+    "category": "Holo-Me",
+    "action": "Rotate Camera"
+  },
+  {
+    "code": "GalnetAudio_Play_Pause",
+    "area": "General Controls",
+    "category": "Playlist",
+    "action": "Play / Pause"
+  },
+  {
+    "code": "GalnetAudio_SkipForward",
+    "area": "General Controls",
+    "category": "Playlist",
+    "action": "Skip Forward"
+  },
+  {
+    "code": "GalnetAudio_SkipBackward",
+    "area": "General Controls",
+    "category": "Playlist",
+    "action": "Skip Backward"
+  },
+  {
+    "code": "GalnetAudio_ClearQueue",
+    "area": "General Controls",
+    "category": "Playlist",
+    "action": "Clear Queue"
+  },
+  {
+    "code": "StoreEnableRotation",
+    "area": "General Controls",
+    "category": "Store Camera",
+    "action": "Hold to Rotate"
+  },
+  {
+    "code": "StorePitchCamera",
+    "area": "General Controls",
+    "category": "Store Camera",
+    "action": "Pitch Axis"
+  },
+  {
+    "code": "StoreYawCamera",
+    "area": "General Controls",
+    "category": "Store Camera",
+    "action": "Yaw Axis"
+  },
+  {
+    "code": "StoreCamZoomIn",
+    "area": "General Controls",
+    "category": "Store Camera",
+    "action": "Store Camera Zoom In"
+  },
+  {
+    "code": "StoreCamZoomOut",
+    "area": "General Controls",
+    "category": "Store Camera",
+    "action": "Store Camera Zoom Out"
+  },
+  {
+    "code": "StoreToggle",
+    "area": "General Controls",
+    "category": "Store Camera",
+    "action": "Store Toggle"
+  },
+  {
+    "code": "MouseReset",
+    "area": "Ship Controls",
+    "category": "Mouse Controls",
+    "action": "Reset Mouse"
+  },
+  {
+    "code": "YawAxisRaw",
+    "area": "Ship Controls",
+    "category": "Flight Rotation",
+    "action": "Yaw Axis"
+  },
+  {
+    "code": "YawLeftButton",
+    "area": "Ship Controls",
+    "category": "Flight Rotation",
+    "action": "Yaw Left"
+  },
+  {
+    "code": "YawRightButton",
+    "area": "Ship Controls",
+    "category": "Flight Rotation",
+    "action": "Yaw Right"
+  },
+  {
+    "code": "YawtoRollButton",
+    "area": "Ship Controls",
+    "category": "Flight Rotation",
+    "action": "Yaw Roll Button"
+  },
+  {
+    "code": "RollAxisRaw",
+    "area": "Ship Controls",
+    "category": "Flight Rotation",
+    "action": "Roll Axis"
+  },
+  {
+    "code": "RollLeftButton",
+    "area": "Ship Controls",
+    "category": "Flight Rotation",
+    "action": "Roll Left"
+  },
+  {
+    "code": "RollRightButton",
+    "area": "Ship Controls",
+    "category": "Flight Rotation",
+    "action": "Roll Right"
+  },
+  {
+    "code": "PitchAxisRaw",
+    "area": "Ship Controls",
+    "category": "Flight Rotation",
+    "action": "Pitch Axis"
+  },
+  {
+    "code": "PitchUpButton",
+    "area": "Ship Controls",
+    "category": "Flight Rotation",
+    "action": "Pitch Up"
+  },
+  {
+    "code": "PitchDownButton",
+    "area": "Ship Controls",
+    "category": "Flight Rotation",
+    "action": "Pitch Down"
+  },
+  {
+    "code": "LateralThrustRaw",
+    "area": "Ship Controls",
+    "category": "Flight Thrust",
+    "action": "Lateral Thrust Axis"
+  },
+  {
+    "code": "LeftThrustButton",
+    "area": "Ship Controls",
+    "category": "Flight Thrust",
+    "action": "Thrust Left"
+  },
+  {
+    "code": "RightThrustButton",
+    "area": "Ship Controls",
+    "category": "Flight Thrust",
+    "action": "Thrust Right"
+  },
+  {
+    "code": "VerticalThrustRaw",
+    "area": "Ship Controls",
+    "category": "Flight Thrust",
+    "action": "Vertical Thrust Axis"
+  },
+  {
+    "code": "UpThrustButton",
+    "area": "Ship Controls",
+    "category": "Flight Thrust",
+    "action": "Thrust Up"
+  },
+  {
+    "code": "DownThrustButton",
+    "area": "Ship Controls",
+    "category": "Flight Thrust",
+    "action": "Thrust Down"
+  },
+  {
+    "code": "AheadThrust",
+    "area": "Ship Controls",
+    "category": "Flight Thrust",
+    "action": "Thrust Forward and Backward Axis"
+  },
+  {
+    "code": "ForwardThrustButton",
+    "area": "Ship Controls",
+    "category": "Flight Thrust",
+    "action": "Thrust Forward"
+  },
+  {
+    "code": "BackwardThrustButton",
+    "area": "Ship Controls",
+    "category": "Flight Thrust",
+    "action": "Thrust Backward"
+  },
+  {
+    "code": "UseAlternateFlightValuesToggle",
+    "area": "Ship Controls",
+    "category": "Alternate Flight Controls",
+    "action": "Alternate Controls Toggle"
+  },
+  {
+    "code": "YawAxisAlternate",
+    "area": "Ship Controls",
+    "category": "Alternate Flight Controls",
+    "action": "Yaw Axis"
+  },
+  {
+    "code": "RollAxisAlternate",
+    "area": "Ship Controls",
+    "category": "Alternate Flight Controls",
+    "action": "Roll Axis"
+  },
+  {
+    "code": "PitchAxisAlternate",
+    "area": "Ship Controls",
+    "category": "Alternate Flight Controls",
+    "action": "Pitch Axis"
+  },
+  {
+    "code": "LateralThrustAlternate",
+    "area": "Ship Controls",
+    "category": "Alternate Flight Controls",
+    "action": "Lateral Thrust Axis"
+  },
+  {
+    "code": "VerticalThrustAlternate",
+    "area": "Ship Controls",
+    "category": "Alternate Flight Controls",
+    "action": "Vertical Thrust Axis"
+  },
+  {
+    "code": "ThrottleAxis",
+    "area": "Ship Controls",
+    "category": "Flight Throttle",
+    "action": "Throttle Axis"
+  },
+  {
+    "code": "ToggleReverseThrottleInput",
+    "area": "Ship Controls",
+    "category": "Flight Throttle",
+    "action": "Forward Only Throttle Reverse"
+  },
+  {
+    "code": "ForwardKey",
+    "area": "Ship Controls",
+    "category": "Flight Throttle",
+    "action": "Increase Throttle"
+  },
+  {
+    "code": "BackwardKey",
+    "area": "Ship Controls",
+    "category": "Flight Throttle",
+    "action": "Decrease Throttle"
+  },
+  {
+    "code": "SetSpeedMinus100",
+    "area": "Ship Controls",
+    "category": "Flight Throttle",
+    "action": "Set Speed to -100%"
+  },
+  {
+    "code": "SetSpeedMinus75",
+    "area": "Ship Controls",
+    "category": "Flight Throttle",
+    "action": "Set Speed to -75%"
+  },
+  {
+    "code": "SetSpeedMinus50",
+    "area": "Ship Controls",
+    "category": "Flight Throttle",
+    "action": "Set Speed to -50%"
+  },
+  {
+    "code": "SetSpeedMinus25",
+    "area": "Ship Controls",
+    "category": "Flight Throttle",
+    "action": "Set Speed to -25%"
+  },
+  {
+    "code": "SetSpeedZero",
+    "area": "Ship Controls",
+    "category": "Flight Throttle",
+    "action": "Set Speed to 0%"
+  },
+  {
+    "code": "SetSpeed25",
+    "area": "Ship Controls",
+    "category": "Flight Throttle",
+    "action": "Set Speed to 25%"
+  },
+  {
+    "code": "SetSpeed50",
+    "area": "Ship Controls",
+    "category": "Flight Throttle",
+    "action": "Set Speed to 50%"
+  },
+  {
+    "code": "SetSpeed75",
+    "area": "Ship Controls",
+    "category": "Flight Throttle",
+    "action": "Set Speed to 75%"
+  },
+  {
+    "code": "SetSpeed100",
+    "area": "Ship Controls",
+    "category": "Flight Throttle",
+    "action": "Set Speed to 100%"
+  },
+  {
+    "code": "YawAxis_Landing",
+    "area": "Ship Controls",
+    "category": "Flight Landing Overrides",
+    "action": "Yaw Axis"
+  },
+  {
+    "code": "YawLeftButton_Landing",
+    "area": "Ship Controls",
+    "category": "Flight Landing Overrides",
+    "action": "Yaw Left"
+  },
+  {
+    "code": "YawRightButton_Landing",
+    "area": "Ship Controls",
+    "category": "Flight Landing Overrides",
+    "action": "Yar Right"
+  },
+  {
+    "code": "PitchAxis_Landing",
+    "area": "Ship Controls",
+    "category": "Flight Landing Overrides",
+    "action": "Pitch Axis"
+  },
+  {
+    "code": "PitchUpButton_Landing",
+    "area": "Ship Controls",
+    "category": "Flight Landing Overrides",
+    "action": "Pitch Up"
+  },
+  {
+    "code": "PitchDownButton_Landing",
+    "area": "Ship Controls",
+    "category": "Flight Landing Overrides",
+    "action": "Pitch Down"
+  },
+  {
+    "code": "RollAxis_Landing",
+    "area": "Ship Controls",
+    "category": "Flight Landing Overrides",
+    "action": "Roll Axis"
+  },
+  {
+    "code": "RollLeftButton_Landing",
+    "area": "Ship Controls",
+    "category": "Flight Landing Overrides",
+    "action": "Roll Left"
+  },
+  {
+    "code": "RollRightButton_Landing",
+    "area": "Ship Controls",
+    "category": "Flight Landing Overrides",
+    "action": "Roll Right"
+  },
+  {
+    "code": "LateralThrust_Landing",
+    "area": "Ship Controls",
+    "category": "Flight Landing Overrides",
+    "action": "Lateral Thrust Axis"
+  },
+  {
+    "code": "LeftThrustButton_Landing",
+    "area": "Ship Controls",
+    "category": "Flight Landing Overrides",
+    "action": "Thrust Left"
+  },
+  {
+    "code": "RightThrustButton_Landing",
+    "area": "Ship Controls",
+    "category": "Flight Landing Overrides",
+    "action": "Thrust Right"
+  },
+  {
+    "code": "VerticalThrust_Landing",
+    "area": "Ship Controls",
+    "category": "Flight Landing Overrides",
+    "action": "Verticle Thrust Axis"
+  },
+  {
+    "code": "UpThrustButton_Landing",
+    "area": "Ship Controls",
+    "category": "Flight Landing Overrides",
+    "action": "Thrust Up"
+  },
+  {
+    "code": "DownThrustButton_Landing",
+    "area": "Ship Controls",
+    "category": "Flight Landing Overrides",
+    "action": "Thrust Down"
+  },
+  {
+    "code": "AheadThrust_Landing",
+    "area": "Ship Controls",
+    "category": "Flight Landing Overrides",
+    "action": "Thrust forward and Backward Axis"
+  },
+  {
+    "code": "ForwardThrustButton_Landing",
+    "area": "Ship Controls",
+    "category": "Flight Landing Overrides",
+    "action": "Thrust Forward"
+  },
+  {
+    "code": "BackwardThrustButton_Landing",
+    "area": "Ship Controls",
+    "category": "Flight Landing Overrides",
+    "action": "Thrust Backward"
+  },
+  {
+    "code": "ToggleFlightAssist",
+    "area": "Ship Controls",
+    "category": "Flight Miscellaneous",
+    "action": "Toggle Flight Assist"
+  },
+  {
+    "code": "UseBoostJuice",
+    "area": "Ship Controls",
+    "category": "Flight Miscellaneous",
+    "action": "Engine Boost"
+  },
+  {
+    "code": "HyperSuperCombination",
+    "area": "Ship Controls",
+    "category": "Flight Miscellaneous",
+    "action": "Toggle Frame Shift Drive"
+  },
+  {
+    "code": "Supercruise",
+    "area": "Ship Controls",
+    "category": "Flight Miscellaneous",
+    "action": "Supercruise"
+  },
+  {
+    "code": "Hyperspace",
+    "area": "Ship Controls",
+    "category": "Flight Miscellaneous",
+    "action": "Hyperspace Jump"
+  },
+  {
+    "code": "DisableRotationCorrectToggle",
+    "area": "Ship Controls",
+    "category": "Flight Miscellaneous",
+    "action": "Rotational Correction"
+  },
+  {
+    "code": "OrbitLinesToggle",
+    "area": "Ship Controls",
+    "category": "Flight Miscellaneous",
+    "action": "Toggle Orbit Lines"
+  },
+  {
+    "code": "SelectTarget",
+    "area": "Ship Controls",
+    "category": "Targeting",
+    "action": "Select Target Ahead"
+  },
+  {
+    "code": "CycleNextTarget",
+    "area": "Ship Controls",
+    "category": "Targeting",
+    "action": "Cycle Next Target"
+  },
+  {
+    "code": "CyclePreviousTarget",
+    "area": "Ship Controls",
+    "category": "Targeting",
+    "action": "Cycle Previous Ship"
+  },
+  {
+    "code": "SelectHighestThreat",
+    "area": "Ship Controls",
+    "category": "Targeting",
+    "action": "Select Highest Threat"
+  },
+  {
+    "code": "CycleNextHostileTarget",
+    "area": "Ship Controls",
+    "category": "Targeting",
+    "action": "Cycle Next Hostile Target"
+  },
+  {
+    "code": "CyclePreviousHostileTarget",
+    "area": "Ship Controls",
+    "category": "Targeting",
+    "action": "Cycle Previous Hostile Ship"
+  },
+  {
+    "code": "TargetWingman0",
+    "area": "Ship Controls",
+    "category": "Targeting",
+    "action": "Select Teammate 1"
+  },
+  {
+    "code": "TargetWingman1",
+    "area": "Ship Controls",
+    "category": "Targeting",
+    "action": "Select Teammate 2"
+  },
+  {
+    "code": "TargetWingman2",
+    "area": "Ship Controls",
+    "category": "Targeting",
+    "action": "Select Teammate 3"
+  },
+  {
+    "code": "SelectTargetsTarget",
+    "area": "Ship Controls",
+    "category": "Targeting",
+    "action": "Select Teammates's Target"
+  },
+  {
+    "code": "WingNavLock",
+    "area": "Ship Controls",
+    "category": "Targeting",
+    "action": "Teammate Nav-Lock"
+  },
+  {
+    "code": "CycleNextSubsystem",
+    "area": "Ship Controls",
+    "category": "Targeting",
+    "action": "Cycle Next Subsystem"
+  },
+  {
+    "code": "CyclePreviousSubsystem",
+    "area": "Ship Controls",
+    "category": "Targeting",
+    "action": "Cycle Previous Subsystem"
+  },
+  {
+    "code": "TargetNextRouteSystem",
+    "area": "Ship Controls",
+    "category": "Targeting",
+    "action": "Target Next System In Route"
+  },
+  {
+    "code": "PrimaryFire",
+    "area": "Ship Controls",
+    "category": "Weapons",
+    "action": "Primary Fire"
+  },
+  {
+    "code": "SecondaryFire",
+    "area": "Ship Controls",
+    "category": "Weapons",
+    "action": "Secondary Fire"
+  },
+  {
+    "code": "CycleFireGroupNext",
+    "area": "Ship Controls",
+    "category": "Weapons",
+    "action": "Cycle Next Fire Group"
+  },
+  {
+    "code": "CycleFireGroupPrevious",
+    "area": "Ship Controls",
+    "category": "Weapons",
+    "action": "Cycle Previous Firgroup"
+  },
+  {
+    "code": "DeployHardpointToggle",
+    "area": "Ship Controls",
+    "category": "Weapons",
+    "action": "Deploy Hardpoints"
+  },
+  {
+    "code": "ToggleButtonUpInput",
+    "area": "Ship Controls",
+    "category": "Cooling",
+    "action": "Silent Running"
+  },
+  {
+    "code": "DeployHeatsink",
+    "area": "Ship Controls",
+    "category": "Cooling",
+    "action": "Deploy Heatsink"
+  },
+  {
+    "code": "ShipSpotLightToggle",
+    "area": "Ship Controls",
+    "category": "Miscellaneous",
+    "action": "Ship Lights"
+  },
+  {
+    "code": "RadarRangeAxis",
+    "area": "Ship Controls",
+    "category": "Miscellaneous",
+    "action": "Sensor Zoom Axis"
+  },
+  {
+    "code": "RadarIncreaseRange",
+    "area": "Ship Controls",
+    "category": "Miscellaneous",
+    "action": "Increase Sensor Zoom"
+  },
+  {
+    "code": "RadarDecreaseRange",
+    "area": "Ship Controls",
+    "category": "Miscellaneous",
+    "action": "Decrease Sensor Zoom"
+  },
+  {
+    "code": "IncreaseEnginesPower",
+    "area": "Ship Controls",
+    "category": "Miscellaneous",
+    "action": "Divert Power to Engines"
+  },
+  {
+    "code": "IncreaseWeaponsPower",
+    "area": "Ship Controls",
+    "category": "Miscellaneous",
+    "action": "Divert Power to Weapons"
+  },
+  {
+    "code": "IncreaseSystemsPower",
+    "area": "Ship Controls",
+    "category": "Miscellaneous",
+    "action": "Divert Power to System"
+  },
+  {
+    "code": "ResetPowerDistribution",
+    "area": "Ship Controls",
+    "category": "Miscellaneous",
+    "action": "Balance Power Distribution"
+  },
+  {
+    "code": "HMDReset",
+    "area": "Ship Controls",
+    "category": "Miscellaneous",
+    "action": "Reset HMD Orientation"
+  },
+  {
+    "code": "ToggleCargoScoop",
+    "area": "Ship Controls",
+    "category": "Miscellaneous",
+    "action": "Cargo Scoop"
+  },
+  {
+    "code": "EjectAllCargo",
+    "area": "Ship Controls",
+    "category": "Miscellaneous",
+    "action": "Jettison All Cargo"
+  },
+  {
+    "code": "LandingGearToggle",
+    "area": "Ship Controls",
+    "category": "Miscellaneous",
+    "action": "Landing Gear"
+  },
+  {
+    "code": "MicrophoneMute",
+    "area": "Ship Controls",
+    "category": "Miscellaneous",
+    "action": "Microphone Mute"
+  },
+  {
+    "code": "UseShieldCell",
+    "area": "Ship Controls",
+    "category": "Miscellaneous",
+    "action": "Use Shield Cell"
+  },
+  {
+    "code": "FireChaffLauncher",
+    "area": "Ship Controls",
+    "category": "Miscellaneous",
+    "action": "Use Chaff Launcher"
+  },
+  {
+    "code": "ChargeECM",
+    "area": "Ship Controls",
+    "category": "Miscellaneous",
+    "action": "Charge Ecm"
+  },
+  {
+    "code": "WEaponColourToggle",
+    "area": "Ship Controls",
+    "category": "Miscellaneous",
+    "action": "Weapon Color"
+  },
+  {
+    "code": "EngineColourToggle",
+    "area": "Ship Controls",
+    "category": "Miscellaneous",
+    "action": "Engine Color"
+  },
+  {
+    "code": "NightVisionToggle",
+    "area": "Ship Controls",
+    "category": "Miscellaneous",
+    "action": "Night Vision"
+  },
+  {
+    "code": "UIFocus",
+    "area": "Ship Controls",
+    "category": "Mode Switches",
+    "action": "UI Focus"
+  },
+  {
+    "code": "FocusLeftPanel",
+    "area": "Ship Controls",
+    "category": "Mode Switches",
+    "action": "External Panel"
+  },
+  {
+    "code": "FocusCommsPanel",
+    "area": "Ship Controls",
+    "category": "Mode Switches",
+    "action": "Comms Panel"
+  },
+  {
+    "code": "QuickCommsPanel",
+    "area": "Ship Controls",
+    "category": "Mode Switches",
+    "action": "Quick Comms"
+  },
+  {
+    "code": "FocusRadarPanel",
+    "area": "Ship Controls",
+    "category": "Mode Switches",
+    "action": "Role Panel"
+  },
+  {
+    "code": "FocusRightPanel",
+    "area": "Ship Controls",
+    "category": "Mode Switches",
+    "action": "Internal Panel"
+  },
+  {
+    "code": "GalaxyMapOpen",
+    "area": "Ship Controls",
+    "category": "Mode Switches",
+    "action": "Open Galaxy Map"
+  },
+  {
+    "code": "SystemMapOpen",
+    "area": "Ship Controls",
+    "category": "Mode Switches",
+    "action": "Open System Map"
+  },
+  {
+    "code": "ShowPGScoreSummaryInput",
+    "area": "Ship Controls",
+    "category": "Mode Switches",
+    "action": "Show CQC Score Screen"
+  },
+  {
+    "code": "HeadlookToggle",
+    "area": "Ship Controls",
+    "category": "Mode Switches",
+    "action": "Headlook"
+  },
+  {
+    "code": "Pause",
+    "area": "Ship Controls",
+    "category": "Mode Switches",
+    "action": "Game Menu"
+  },
+  {
+    "code": "FriendsMenu",
+    "area": "Ship Controls",
+    "category": "Mode Switches",
+    "action": "Friends Menu"
+  },
+  {
+    "code": "OpenCodexGoToDiscovery",
+    "area": "Ship Controls",
+    "category": "Mode Switches",
+    "action": "Open Discovery"
+  },
+  {
+    "code": "PlayerHUDModeToggle",
+    "area": "Ship Controls",
+    "category": "Mode Switches",
+    "action": "Switch Cockpit Mode"
+  },
+  {
+    "code": "ExplorationFSSEnter",
+    "area": "Ship Controls",
+    "category": "Mode Switches",
+    "action": "Enter FSS Mode"
+  },
+  {
+    "code": "HeadLookReset",
+    "area": "Ship Controls",
+    "category": "Headlook Mode",
+    "action": "Reset Headlook"
+  },
+  {
+    "code": "HeadLookPitchUp",
+    "area": "Ship Controls",
+    "category": "Headlook Mode",
+    "action": "Look Up"
+  },
+  {
+    "code": "HeadLookPitchDown",
+    "area": "Ship Controls",
+    "category": "Headlook Mode",
+    "action": "Look Down"
+  },
+  {
+    "code": "HeadLookPitchAxisRaw",
+    "area": "Ship Controls",
+    "category": "Headlook Mode",
+    "action": "Look Up and Down Axis"
+  },
+  {
+    "code": "HeadLookYawLeft",
+    "area": "Ship Controls",
+    "category": "Headlook Mode",
+    "action": "Look Left"
+  },
+  {
+    "code": "HeadLookYawRight",
+    "area": "Ship Controls",
+    "category": "Headlook Mode",
+    "action": "Look Right"
+  },
+  {
+    "code": "HeadLookYawAxis",
+    "area": "Ship Controls",
+    "category": "Headlook Mode",
+    "action": "Look Left and Right Axis"
+  },
+  {
+    "code": "MultiCrewToggleMode",
+    "area": "Ship Controls",
+    "category": "Multi-crew",
+    "action": "Mode Toggle"
+  },
+  {
+    "code": "MultiCrewPrimaryFire",
+    "area": "Ship Controls",
+    "category": "Multi-crew",
+    "action": "Primary Fire"
+  },
+  {
+    "code": "MultiCrewSEcondaryFire",
+    "area": "Ship Controls",
+    "category": "Multi-crew",
+    "action": "Secondary Fire"
+  },
+  {
+    "code": "MultiCrewPrimaryUtilityFire",
+    "area": "Ship Controls",
+    "category": "Multi-crew",
+    "action": "Primary Utility Fire"
+  },
+  {
+    "code": "MultiCrewSecondaryUtilityfire",
+    "area": "Ship Controls",
+    "category": "Multi-crew",
+    "action": "Secondary Utility Fire"
+  },
+  {
+    "code": "MultiCrewThirdPersonYawAxisRaw",
+    "area": "Ship Controls",
+    "category": "Multi-crew",
+    "action": "Third-Person Yaw Axis"
+  },
+  {
+    "code": "MultiCrewThirdPersonYawLeftButton",
+    "area": "Ship Controls",
+    "category": "Multi-crew",
+    "action": "Third-Person Yaw Left"
+  },
+  {
+    "code": "MultiCrewThirdPersonYawRightButton",
+    "area": "Ship Controls",
+    "category": "Multi-crew",
+    "action": "Third-Person Yaw Right"
+  },
+  {
+    "code": "MultiCrewThirdPersonPitchAxisRaw",
+    "area": "Ship Controls",
+    "category": "Multi-crew",
+    "action": "Third-Person Pitch Axis"
+  },
+  {
+    "code": "MultiCrewThirdPersonPitchUpButton",
+    "area": "Ship Controls",
+    "category": "Multi-crew",
+    "action": "Third-Person Pitch Up"
+  },
+  {
+    "code": "MultiCrewThirdPersonPitchDownButton",
+    "area": "Ship Controls",
+    "category": "Multi-crew",
+    "action": "Third-Person Pitch Down"
+  },
+  {
+    "code": "MultiCrewThirdPersonFovAxisRaw",
+    "area": "Ship Controls",
+    "category": "Multi-crew",
+    "action": "Third-Person Field of View Axis"
+  },
+  {
+    "code": "MultiCrewThirdPersonFovOutButton",
+    "area": "Ship Controls",
+    "category": "Multi-crew",
+    "action": "Third-Person Field of View Out"
+  },
+  {
+    "code": "MultiCrewThirdPersonFovInButton",
+    "area": "Ship Controls",
+    "category": "Multi-crew",
+    "action": "Third-Person Field of View In"
+  },
+  {
+    "code": "MultiCrewCockpitUICycleForward",
+    "area": "Ship Controls",
+    "category": "Multi-crew",
+    "action": "Cycle Cockpit UI Forwards"
+  },
+  {
+    "code": "MultiCrewCockpitUICycleBackward",
+    "area": "Ship Controls",
+    "category": "Multi-crew",
+    "action": "Cycle Cockpit UI Backwards"
+  },
+  {
+    "code": "OrderRequestDock",
+    "area": "Ship Controls",
+    "category": "Fighter Orders",
+    "action": "Recall Fighter"
+  },
+  {
+    "code": "OrderDefensiveBehaviour",
+    "area": "Ship Controls",
+    "category": "Fighter Orders",
+    "action": "Defend"
+  },
+  {
+    "code": "OrderAggressiveBehaviour",
+    "area": "Ship Controls",
+    "category": "Fighter Orders",
+    "action": "Engage at Will"
+  },
+  {
+    "code": "OrderFocusTarget",
+    "area": "Ship Controls",
+    "category": "Fighter Orders",
+    "action": "Attack Target"
+  },
+  {
+    "code": "OrderHoldFire",
+    "area": "Ship Controls",
+    "category": "Fighter Orders",
+    "action": "Maintain formation"
+  },
+  {
+    "code": "OrderHoldPosition",
+    "area": "Ship Controls",
+    "category": "Fighter Orders",
+    "action": "Hold Position"
+  },
+  {
+    "code": "OrderFollow",
+    "area": "Ship Controls",
+    "category": "Fighter Orders",
+    "action": "Follow Me"
+  },
+  {
+    "code": "OpenOrders",
+    "area": "Ship Controls",
+    "category": "Fighter Orders",
+    "action": "Open Orders"
+  },
+  {
+    "code": "ExplorationFSSCAmeraPitch",
+    "area": "Ship Controls",
+    "category": "Full Spectrum System Scanner",
+    "action": "Camera Pitch"
+  },
+  {
+    "code": "ExplorationFSSCameraPitchIncreaseButton",
+    "area": "Ship Controls",
+    "category": "Full Spectrum System Scanner",
+    "action": "Camera Pitch Increase"
+  },
+  {
+    "code": "ExplorationFSSCameraPitchDecreaseButton",
+    "area": "Ship Controls",
+    "category": "Full Spectrum System Scanner",
+    "action": "Camera Pitch Decrease"
+  },
+  {
+    "code": "ExplorationFSSCameraYaw",
+    "area": "Ship Controls",
+    "category": "Full Spectrum System Scanner",
+    "action": "Cameray Yaw"
+  },
+  {
+    "code": "ExplorationFSSCameraYawIncreaseButton",
+    "area": "Ship Controls",
+    "category": "Full Spectrum System Scanner",
+    "action": "Camera Yaw Increase"
+  },
+  {
+    "code": "ExplorationFSSCameraYawDecreaseButton",
+    "area": "Ship Controls",
+    "category": "Full Spectrum System Scanner",
+    "action": "Camera Yaw Decrease"
+  },
+  {
+    "code": "ExplorationFSSZoomIn",
+    "area": "Ship Controls",
+    "category": "Full Spectrum System Scanner",
+    "action": "Zoom in to Target"
+  },
+  {
+    "code": "ExplorationFSSZoomOut",
+    "area": "Ship Controls",
+    "category": "Full Spectrum System Scanner",
+    "action": "Zoom Out"
+  },
+  {
+    "code": "ExplorationFSSMiniZoomIn",
+    "area": "Ship Controls",
+    "category": "Full Spectrum System Scanner",
+    "action": "Stepped Zoom In"
+  },
+  {
+    "code": "ExplorationFSSMiniZoomOut",
+    "area": "Ship Controls",
+    "category": "Full Spectrum System Scanner",
+    "action": "Stepped Zoom Out"
+  },
+  {
+    "code": "ExplorationFSSRAdioTuningX_Raw",
+    "area": "Ship Controls",
+    "category": "Full Spectrum System Scanner",
+    "action": "Tuning"
+  },
+  {
+    "code": "ExplorationFSSRadioTuningX_Increase",
+    "area": "Ship Controls",
+    "category": "Full Spectrum System Scanner",
+    "action": "Tuning Right"
+  },
+  {
+    "code": "ExplorationFSSRadioTuningX_Decrease",
+    "area": "Ship Controls",
+    "category": "Full Spectrum System Scanner",
+    "action": "Tuning Left"
+  },
+  {
+    "code": "ExplorationFSSRadioTuningAbsoluteX",
+    "area": "Ship Controls",
+    "category": "Full Spectrum System Scanner",
+    "action": "Absolute Tuning"
+  },
+  {
+    "code": "ExplorationFSSDiscoveryScan",
+    "area": "Ship Controls",
+    "category": "Full Spectrum System Scanner",
+    "action": "Discovery Scan"
+  },
+  {
+    "code": "ExplorationFSSQuit",
+    "area": "Ship Controls",
+    "category": "Full Spectrum System Scanner",
+    "action": "Leave FSS"
+  },
+  {
+    "code": "ExplorationFSSTarget",
+    "area": "Ship Controls",
+    "category": "Full Spectrum System Scanner",
+    "action": "Target Current Signal"
+  },
+  {
+    "code": "ExplorationFSSShowHelp",
+    "area": "Ship Controls",
+    "category": "Full Spectrum System Scanner",
+    "action": "Show Help"
+  },
+  {
+    "code": "ExplorationSAAChangeScannedAreaViewToggle",
+    "area": "Ship Controls",
+    "category": "Detailed Surface Scanner",
+    "action": "Toggle Front/Back View"
+  },
+  {
+    "code": "ExplorationSAAExitThirdPerson",
+    "area": "Ship Controls",
+    "category": "Detailed Surface Scanner",
+    "action": "Exit Mode"
+  },
+  {
+    "code": "ExplorationSAANextGenus",
+    "area": "Ship Controls",
+    "category": "Detailed Surface Scanner",
+    "action": "Next Filter"
+  },
+  {
+    "code": "ExplorationSAAPreviousGenus",
+    "area": "Ship Controls",
+    "category": "Detailed Surface Scanner",
+    "action": "Previous Filter"
+  },
+  {
+    "code": "SAAThirdPersonYawAxisRaw",
+    "area": "Ship Controls",
+    "category": "Detailed Surface Scanner",
+    "action": "Third-Person Yaw Axis"
+  },
+  {
+    "code": "SAAThirdPersonYawLeftButton",
+    "area": "Ship Controls",
+    "category": "Detailed Surface Scanner",
+    "action": "Third-Person Yaw Left"
+  },
+  {
+    "code": "SAAThirdPersonYawRightButton",
+    "area": "Ship Controls",
+    "category": "Detailed Surface Scanner",
+    "action": "Third-Person Yaw Right"
+  },
+  {
+    "code": "SAAThirdPersonPitchAxisRaw",
+    "area": "Ship Controls",
+    "category": "Detailed Surface Scanner",
+    "action": "Third-Person Pitch Axis"
+  },
+  {
+    "code": "SAAThirdPersonPitchUpButton",
+    "area": "Ship Controls",
+    "category": "Detailed Surface Scanner",
+    "action": "Third-Person Pitch Up"
+  },
+  {
+    "code": "SAAThirdPersonPitchDownButton",
+    "area": "Ship Controls",
+    "category": "Detailed Surface Scanner",
+    "action": "Third-Person Pitch Down"
+  },
+  {
+    "code": "SAAThirdPersonFovAxisRaw",
+    "area": "Ship Controls",
+    "category": "Detailed Surface Scanner",
+    "action": "Third-Person Field of View Axis"
+  },
+  {
+    "code": "SAAThirdPersonFovOutButton",
+    "area": "Ship Controls",
+    "category": "Detailed Surface Scanner",
+    "action": "Third-Person Field of View Out"
+  },
+  {
+    "code": "SAAThirdPersonFovInButton",
+    "area": "Ship Controls",
+    "category": "Detailed Surface Scanner",
+    "action": "Third-Person Field of View In"
+  },
+  {
+    "code": "ToggleDriveAssist",
+    "area": "SRV Controls",
+    "category": "Driving",
+    "action": "Drive Assist"
+  },
+  {
+    "code": "SteeringAxis",
+    "area": "SRV Controls",
+    "category": "Driving",
+    "action": "Steering Axis"
+  },
+  {
+    "code": "SteerLeftButton",
+    "area": "SRV Controls",
+    "category": "Driving",
+    "action": "Steering Left Button"
+  },
+  {
+    "code": "SteerRightButton",
+    "area": "SRV Controls",
+    "category": "Driving",
+    "action": "Steering Right Button"
+  },
+  {
+    "code": "BuggyRollAxisRaw",
+    "area": "SRV Controls",
+    "category": "Driving",
+    "action": "Roll Axis"
+  },
+  {
+    "code": "BuggyRollLeftButton",
+    "area": "SRV Controls",
+    "category": "Driving",
+    "action": "Roll Left Button"
+  },
+  {
+    "code": "BuggyRollRightButton",
+    "area": "SRV Controls",
+    "category": "Driving",
+    "action": "Roll Right Button"
+  },
+  {
+    "code": "BuggyPitchAxis",
+    "area": "SRV Controls",
+    "category": "Driving",
+    "action": "Pitch Axis"
+  },
+  {
+    "code": "BuggyPitchUpButton",
+    "area": "SRV Controls",
+    "category": "Driving",
+    "action": "Pitch Up Button"
+  },
+  {
+    "code": "BuggyPitchDownButton",
+    "area": "SRV Controls",
+    "category": "Driving",
+    "action": "Pitch Down Button"
+  },
+  {
+    "code": "VerticalThrustersButton",
+    "area": "SRV Controls",
+    "category": "Driving",
+    "action": "Verticle Thrusters"
+  },
+  {
+    "code": "BuggyPrimaryFireButton",
+    "area": "SRV Controls",
+    "category": "Driving",
+    "action": "SRV Primary Fire"
+  },
+  {
+    "code": "BuggySecondaryFireButton",
+    "area": "SRV Controls",
+    "category": "Driving",
+    "action": "SRV Secondary Fire"
+  },
+  {
+    "code": "AutoBreakBuggyButton",
+    "area": "SRV Controls",
+    "category": "Driving",
+    "action": "Handbrake"
+  },
+  {
+    "code": "HeadlightsBuggyButton",
+    "area": "SRV Controls",
+    "category": "Driving",
+    "action": "Headlights"
+  },
+  {
+    "code": "ToggleBuggyTurretButton",
+    "area": "SRV Controls",
+    "category": "Driving",
+    "action": "Toggle SRV Turret"
+  },
+  {
+    "code": "BuggyCycleFireGroupNext",
+    "area": "SRV Controls",
+    "category": "Driving",
+    "action": "Cycle Next Fire Group"
+  },
+  {
+    "code": "BuggyCycleFireGroupPrevious",
+    "area": "SRV Controls",
+    "category": "Driving",
+    "action": "Cycle Previous Fire Group"
+  },
+  {
+    "code": "SelectTarget_Buggy",
+    "area": "SRV Controls",
+    "category": "Driving Targeting",
+    "action": "Select Target Ahead"
+  },
+  {
+    "code": "BuggyTurretYawAxisRaw",
+    "area": "SRV Controls",
+    "category": "Driving Turret Controls",
+    "action": "SRV Turret Yaw Axis"
+  },
+  {
+    "code": "BuggyTurretYawLeftButton",
+    "area": "SRV Controls",
+    "category": "Driving Turret Controls",
+    "action": "SRV Turret Yaw Left"
+  },
+  {
+    "code": "BuggyTurretYawRightButton",
+    "area": "SRV Controls",
+    "category": "Driving Turret Controls",
+    "action": "SRV Turret Yaw Right"
+  },
+  {
+    "code": "BuggyTurretPitchAxisRaw",
+    "area": "SRV Controls",
+    "category": "Driving Turret Controls",
+    "action": "SRV Turret Pitch Axis"
+  },
+  {
+    "code": "BuggyTurretPitchUpButton",
+    "area": "SRV Controls",
+    "category": "Driving Turret Controls",
+    "action": "SRV Turret Pitch Up"
+  },
+  {
+    "code": "BuggyTurretPitchDownButton",
+    "area": "SRV Controls",
+    "category": "Driving Turret Controls",
+    "action": "SRV Turret Pitch Down"
+  },
+  {
+    "code": "DriveSpeedAxis",
+    "area": "SRV Controls",
+    "category": "Drive Throttle",
+    "action": "Drive Speed Axis"
+  },
+  {
+    "code": "BuggyToggleReverseThrottleInput",
+    "area": "SRV Controls",
+    "category": "Drive Throttle",
+    "action": "Forward Only Throttle Reverse"
+  },
+  {
+    "code": "IncreaseSpeedButtonMax",
+    "area": "SRV Controls",
+    "category": "Drive Throttle",
+    "action": "Accelerate Button"
+  },
+  {
+    "code": "DecreaseSpeedButtonMax",
+    "area": "SRV Controls",
+    "category": "Drive Throttle",
+    "action": "Decelerate Button"
+  },
+  {
+    "code": "IncreaseSpeedButtonPartial",
+    "area": "SRV Controls",
+    "category": "Drive Throttle",
+    "action": "Accelerate Axis"
+  },
+  {
+    "code": "DecreaseSpeedButtonPartial",
+    "area": "SRV Controls",
+    "category": "Drive Throttle",
+    "action": "Decelerate Axis"
+  },
+  {
+    "code": "IncreaseEnginesPower_Buggy",
+    "area": "SRV Controls",
+    "category": "Driving Miscellaneous",
+    "action": "Divert Power to Engines"
+  },
+  {
+    "code": "IncreaseWeaponsPower_Buggy",
+    "area": "SRV Controls",
+    "category": "Driving Miscellaneous",
+    "action": "Divert Power to Weapons"
+  },
+  {
+    "code": "IncreaseSystemsPower_Buggy",
+    "area": "SRV Controls",
+    "category": "Driving Miscellaneous",
+    "action": "Divert Power to System"
+  },
+  {
+    "code": "ResetPowerDistribution_Buggy",
+    "area": "SRV Controls",
+    "category": "Driving Miscellaneous",
+    "action": "Balance Power Distribution"
+  },
+  {
+    "code": "ToggleCargoScoop_Buggy",
+    "area": "SRV Controls",
+    "category": "Driving Miscellaneous",
+    "action": "Cargo Scoop"
+  },
+  {
+    "code": "EjectAllCargo_Buggy",
+    "area": "SRV Controls",
+    "category": "Driving Miscellaneous",
+    "action": "Jettison All Cargo"
+  },
+  {
+    "code": "RecallDismissShip",
+    "area": "SRV Controls",
+    "category": "Driving Miscellaneous",
+    "action": "Recall/Dismiss Ship"
+  },
+  {
+    "code": "UIFocus_Buggy",
+    "area": "SRV Controls",
+    "category": "Driving Mode Switches",
+    "action": "UI Focus"
+  },
+  {
+    "code": "FocusLeftPanel_Buggy",
+    "area": "SRV Controls",
+    "category": "Driving Mode Switches",
+    "action": "External Panel"
+  },
+  {
+    "code": "FocusCommsPanel_Buggy",
+    "area": "SRV Controls",
+    "category": "Driving Mode Switches",
+    "action": "Comms Panel"
+  },
+  {
+    "code": "QuickCommsPanel_Buggy",
+    "area": "SRV Controls",
+    "category": "Driving Mode Switches",
+    "action": "Quick Comms"
+  },
+  {
+    "code": "FocusRadarPanel_Buggy",
+    "area": "SRV Controls",
+    "category": "Driving Mode Switches",
+    "action": "Role Panel"
+  },
+  {
+    "code": "FocusRightPanel_Buggy",
+    "area": "SRV Controls",
+    "category": "Driving Mode Switches",
+    "action": "Internal Panel"
+  },
+  {
+    "code": "GalaxyMapOpen_Buggy",
+    "area": "SRV Controls",
+    "category": "Driving Mode Switches",
+    "action": "Open Galaxy Map"
+  },
+  {
+    "code": "SystemMapOpen_Buggy",
+    "area": "SRV Controls",
+    "category": "Driving Mode Switches",
+    "action": "Open System Map"
+  },
+  {
+    "code": "OpenCodexGoToDiscovery_Buggy",
+    "area": "SRV Controls",
+    "category": "Driving Mode Switches",
+    "action": "Open Discovery"
+  },
+  {
+    "code": "PlayerHUDModeToggle_Buggy",
+    "area": "SRV Controls",
+    "category": "Driving Mode Switches",
+    "action": "Switch Cockpit Mode"
+  },
+  {
+    "code": "HeadLookToggle_Buggy",
+    "area": "SRV Controls",
+    "category": "Driving Mode Switches",
+    "action": "Headlook"
+  },
+  {
+    "code": "HumanoidForwardAxis",
+    "area": "On Foot Controls",
+    "category": "On Foot",
+    "action": "Forward Axis"
+  },
+  {
+    "code": "HumanoidForwardButton",
+    "area": "On Foot Controls",
+    "category": "On Foot",
+    "action": "Move Forward"
+  },
+  {
+    "code": "HumanoidBackwardButton",
+    "area": "On Foot Controls",
+    "category": "On Foot",
+    "action": "Move Backward"
+  },
+  {
+    "code": "HumanoidStrafeAxis",
+    "area": "On Foot Controls",
+    "category": "On Foot",
+    "action": "Strafe Axis"
+  },
+  {
+    "code": "HumanoidStrafeLeftButton",
+    "area": "On Foot Controls",
+    "category": "On Foot",
+    "action": "Strafe Left"
+  },
+  {
+    "code": "HumanoidStrafeRightButton",
+    "area": "On Foot Controls",
+    "category": "On Foot",
+    "action": "Strafe Right"
+  },
+  {
+    "code": "HumanoidRotateAxis",
+    "area": "On Foot Controls",
+    "category": "On Foot",
+    "action": "Rotate Axis"
+  },
+  {
+    "code": "HumanoidRotateLeftButton",
+    "area": "On Foot Controls",
+    "category": "On Foot",
+    "action": "Turn Left"
+  },
+  {
+    "code": "HumanoidRotateRightButton",
+    "area": "On Foot Controls",
+    "category": "On Foot",
+    "action": "Turn Right"
+  },
+  {
+    "code": "HumanoidPitchAxis",
+    "area": "On Foot Controls",
+    "category": "On Foot",
+    "action": "Pitch Axis"
+  },
+  {
+    "code": "HumanoidPitchUpButton",
+    "area": "On Foot Controls",
+    "category": "On Foot",
+    "action": "Look Up"
+  },
+  {
+    "code": "HumanoidPitchDownButton",
+    "area": "On Foot Controls",
+    "category": "On Foot",
+    "action": "Look Down"
+  },
+  {
+    "code": "HumanoidSprintButton",
+    "area": "On Foot Controls",
+    "category": "On Foot",
+    "action": "Sprint"
+  },
+  {
+    "code": "HumanoidWalkButton",
+    "area": "On Foot Controls",
+    "category": "On Foot",
+    "action": "Walk"
+  },
+  {
+    "code": "HumanoidCrouchButton",
+    "area": "On Foot Controls",
+    "category": "On Foot",
+    "action": "Crouch"
+  },
+  {
+    "code": "HumanoidJumpButton",
+    "area": "On Foot Controls",
+    "category": "On Foot",
+    "action": "Jump"
+  },
+  {
+    "code": "HumanoidPrimaryInteractButton",
+    "area": "On Foot Controls",
+    "category": "On Foot",
+    "action": "Interact"
+  },
+  {
+    "code": "HumanoidSecondaryInteractButton",
+    "area": "On Foot Controls",
+    "category": "On Foot",
+    "action": "Secondary Interact"
+  },
+  {
+    "code": "HumanoidItemWheelButton",
+    "area": "On Foot Controls",
+    "category": "On Foot",
+    "action": "Open Item Wheel"
+  },
+  {
+    "code": "HumanoidItemWheelButton_XAxis",
+    "area": "On Foot Controls",
+    "category": "On Foot",
+    "action": "Item Wheel Horizontal"
+  },
+  {
+    "code": "HumanoidItemWheelButton_XLeft",
+    "area": "On Foot Controls",
+    "category": "On Foot",
+    "action": "Item Wheel Left"
+  },
+  {
+    "code": "HumanoidItemWheelButton_XRight",
+    "area": "On Foot Controls",
+    "category": "On Foot",
+    "action": "Item Wheel Right"
+  },
+  {
+    "code": "HumanoidItemWheelButton_YAxis",
+    "area": "On Foot Controls",
+    "category": "On Foot",
+    "action": "Item Wheel Vertical"
+  },
+  {
+    "code": "HumanoidItemWheelButton_YUp",
+    "area": "On Foot Controls",
+    "category": "On Foot",
+    "action": "Item Wheel Up"
+  },
+  {
+    "code": "HumanoidItemWheelButton_YDown",
+    "area": "On Foot Controls",
+    "category": "On Foot",
+    "action": "Item Wheel Down"
+  },
+  {
+    "code": "HumanoidPrimaryFireButton",
+    "area": "On Foot Controls",
+    "category": "On Foot",
+    "action": "Fire Weapon/Use Tool"
+  },
+  {
+    "code": "HumanoidZoomButton",
+    "area": "On Foot Controls",
+    "category": "On Foot",
+    "action": "Aim Down Sights"
+  },
+  {
+    "code": "HumanoidThrowGrenadeButton",
+    "area": "On Foot Controls",
+    "category": "On Foot",
+    "action": "Throw Grenade"
+  },
+  {
+    "code": "HumanoidMeleeButton",
+    "area": "On Foot Controls",
+    "category": "On Foot",
+    "action": "Melee Attack"
+  },
+  {
+    "code": "HumanoidReloadButton",
+    "area": "On Foot Controls",
+    "category": "On Foot",
+    "action": "Reload"
+  },
+  {
+    "code": "HumanoidSwitchWeapon",
+    "area": "On Foot Controls",
+    "category": "On Foot",
+    "action": "Switch Weapon"
+  },
+  {
+    "code": "HumanoidSelectPrimaryWeaponButton",
+    "area": "On Foot Controls",
+    "category": "On Foot",
+    "action": "Select Primary Weapon"
+  },
+  {
+    "code": "HumanoidSelectSecondaryWeaponButton",
+    "area": "On Foot Controls",
+    "category": "On Foot",
+    "action": "Select Secondary Weapon"
+  },
+  {
+    "code": "HumanoidSelectUtilityWeaponButton",
+    "area": "On Foot Controls",
+    "category": "On Foot",
+    "action": "Select Tool"
+  },
+  {
+    "code": "HumanoidSelectNextWeaponButton",
+    "area": "On Foot Controls",
+    "category": "On Foot",
+    "action": "Select Next Weapon"
+  },
+  {
+    "code": "HumanoidSelectPreviousWeaponButton",
+    "area": "On Foot Controls",
+    "category": "On Foot",
+    "action": "Select Previous Weapon"
+  },
+  {
+    "code": "HumanoidHideWeaponButton",
+    "area": "On Foot Controls",
+    "category": "On Foot",
+    "action": "Holster Weapon"
+  },
+  {
+    "code": "HumanoidSelectNextGrenadeTypeButton",
+    "area": "On Foot Controls",
+    "category": "On Foot",
+    "action": "Select Next Grenade Type"
+  },
+  {
+    "code": "HumanoidSelectPreviousGrenadeTypeButton",
+    "area": "On Foot Controls",
+    "category": "On Foot",
+    "action": "Select Previous Grenade Type"
+  },
+  {
+    "code": "HumanoidToggleFlashlightButton",
+    "area": "On Foot Controls",
+    "category": "On Foot",
+    "action": "Toggle Flashlight"
+  },
+  {
+    "code": "HumanoidToggleNightVisionButton",
+    "area": "On Foot Controls",
+    "category": "On Foot",
+    "action": "Toggle Night Vision"
+  },
+  {
+    "code": "HumanoidToggleShieldsButton",
+    "area": "On Foot Controls",
+    "category": "On Foot",
+    "action": "Toggle Shields"
+  },
+  {
+    "code": "HumanoidClearAuthorityLevel",
+    "area": "On Foot Controls",
+    "category": "On Foot",
+    "action": "Clear Authority Level"
+  },
+  {
+    "code": "HumanoidHealthPack",
+    "area": "On Foot Controls",
+    "category": "On Foot",
+    "action": "Use Health Pack"
+  },
+  {
+    "code": "HumanoidBattery",
+    "area": "On Foot Controls",
+    "category": "On Foot",
+    "action": "Use Engergy Cell"
+  },
+  {
+    "code": "HumanoidSelectFragGrenade",
+    "area": "On Foot Controls",
+    "category": "On Foot",
+    "action": "Select Frag Grenade"
+  },
+  {
+    "code": "HumanoidSelectEMPGrenade",
+    "area": "On Foot Controls",
+    "category": "On Foot",
+    "action": "Select EMP Grenade"
+  },
+  {
+    "code": "HumanoidSelectShieldGrenade",
+    "area": "On Foot Controls",
+    "category": "On Foot",
+    "action": "Select Shield Grenade"
+  },
+  {
+    "code": "HumanoidSwitchToRechargeTool",
+    "area": "On Foot Controls",
+    "category": "On Foot",
+    "action": "Select Energylink"
+  },
+  {
+    "code": "HumanoidSwitchToCompAnalyser",
+    "area": "On Foot Controls",
+    "category": "On Foot",
+    "action": "Select Profile Analyser"
+  },
+  {
+    "code": "HumanoidSwitchToSuitTool",
+    "area": "On Foot Controls",
+    "category": "On Foot",
+    "action": "Select Suit Specific Tool"
+  },
+  {
+    "code": "HumanoidToggleToolModeButton",
+    "area": "On Foot Controls",
+    "category": "On Foot",
+    "action": "Toggle Tool Mode"
+  },
+  {
+    "code": "HumanoidToggleMissionHelpPanelButton",
+    "area": "On Foot Controls",
+    "category": "On Foot",
+    "action": "Toggle Help"
+  },
+  {
+    "code": "GalaxyMapOpen_Humanoid",
+    "area": "On Foot Controls",
+    "category": "On Foot Mode Switches",
+    "action": "Open Galaxy Map"
+  },
+  {
+    "code": "SystemMapOpen_Humanoid",
+    "area": "On Foot Controls",
+    "category": "On Foot Mode Switches",
+    "action": "Open System Map"
+  },
+  {
+    "code": "FocusCommsPanel_Humanoid",
+    "area": "On Foot Controls",
+    "category": "On Foot Mode Switches",
+    "action": "Comms Panel"
+  },
+  {
+    "code": "QuickCommsPanel_Humanoid",
+    "area": "On Foot Controls",
+    "category": "On Foot Mode Switches",
+    "action": "Quick Comms"
+  },
+  {
+    "code": "HumanoidOpenAccessPanelButton",
+    "area": "On Foot Controls",
+    "category": "On Foot Mode Switches",
+    "action": "Open Insight Hub"
+  },
+  {
+    "code": "HumanoidConflictContextualUIButton",
+    "area": "On Foot Controls",
+    "category": "On Foot Mode Switches",
+    "action": "Open Conflict Zone Battle Stats"
+  },
+]

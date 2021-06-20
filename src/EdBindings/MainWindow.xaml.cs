@@ -3,9 +3,8 @@
     using EdBindings.Model;
     using EdBindings.Model.BindingsRaw;
 
-    using Newtonsoft.Json;
-
     using System;
+    using System.Collections.Generic;
     using System.Collections.ObjectModel;
     using System.ComponentModel;
     using System.IO;
@@ -19,26 +18,51 @@
     /// </summary>
     public partial class MainWindow : Window
     {
+        /// <summary>
+        /// The place holder text
+        /// </summary>
         private const string placeHolderText = "Filter...";
 
+        /// <summary>
+        /// Gets or sets the binding file.
+        /// </summary>
+        /// <value>The binding file.</value>
         private BindingFile BindingFile { get; set; }
 
+        /// <summary>
+        /// Gets or sets the device map.
+        /// </summary>
+        /// <value>The device map.</value>
         private DeviceMap DeviceMap { get; set; }
 
-        private CollectionViewSource DataSource { get; set; }
-
+        /// <summary>
+        /// Gets or sets the key bindings.
+        /// </summary>
+        /// <value>The key bindings.</value>
         private ICollectionView KeyBindings { get; set; }
 
+        /// <summary>
+        /// Gets or sets the action mapping.
+        /// </summary>
+        /// <value>The action mapping.</value>
+        private List<ActionMapping> ActionMappings { get; set; }
+
+        /// <summary>
+        /// Initializes a new instance of the <see cref="MainWindow"/> class.
+        /// </summary>
         public MainWindow()
         {
             InitializeComponent();
+
+            this.ActionMappings = ActionMapping.Open(Path.GetFullPath(@".\ActionMappings.json"));
 
             var deviceMappingFiles = Directory.GetFiles(@".\DeviceMappings");
 
             foreach(var deviceMappingFile in deviceMappingFiles)
             {
 
-                var deviceMapping = JsonConvert.DeserializeObject<DeviceMap>(File.ReadAllText(deviceMappingFile));
+                var deviceMapping = DeviceMap.Open(deviceMappingFile);
+
                 var menuItem = new MenuItem();
                 menuItem.Header = deviceMapping.Name;
                 menuItem.DataContext = deviceMapping;
@@ -50,12 +74,21 @@
             this.SelectActiveDeviceMapping(ApplicationSettings.Default.DeviceMapSelection);
         }
 
+        /// <summary>
+        /// Devices the map selected.
+        /// </summary>
+        /// <param name="sender">The sender.</param>
+        /// <param name="e">The <see cref="RoutedEventArgs"/> instance containing the event data.</param>
         private void DeviceMapSelected(object sender, RoutedEventArgs e)
         {
             var selectedIndex = this.DeviceMappingMenu.Items.IndexOf(sender);
             this.SelectActiveDeviceMapping(selectedIndex);
         }
 
+        /// <summary>
+        /// Selects the active device mapping.
+        /// </summary>
+        /// <param name="index">The index.</param>
         private void SelectActiveDeviceMapping(int index)
         {
             var menuItem = (MenuItem)this.DeviceMappingMenu.Items[index];
@@ -76,8 +109,18 @@
 
         }
 
+        /// <summary>
+        /// Files the exit menu item click.
+        /// </summary>
+        /// <param name="sender">The sender.</param>
+        /// <param name="e">The <see cref="RoutedEventArgs"/> instance containing the event data.</param>
         private void FileExitMenuItemClick(object sender, RoutedEventArgs e) => this.Close();
 
+        /// <summary>
+        /// Files the open bindings menu item click.
+        /// </summary>
+        /// <param name="sender">The sender.</param>
+        /// <param name="e">The <see cref="RoutedEventArgs"/> instance containing the event data.</param>
         private void FileOpenBindingsMenuItemClick(object sender, RoutedEventArgs e)
         {
             var dialog = new Microsoft.Win32.OpenFileDialog();
@@ -91,7 +134,9 @@
             }
         }
 
-
+        /// <summary>
+        /// Processes the binding file.
+        /// </summary>
         private void ProcessBindingFile()
         {
             if (this.BindingFile == null)
@@ -100,7 +145,7 @@
             }
 
             var justBindingGroups = this.BindingFile.Bindings.Where(binding => binding is EdBindings.Model.BindingsRaw.Bindings.BindingGroup).ToList();
-            var dataSource = justBindingGroups.Select(group => KeyBindingView.MakeKeyBindingView((EdBindings.Model.BindingsRaw.Bindings.BindingGroup)group, this.DeviceMap)).ToList();
+            var dataSource = justBindingGroups.Select(group => KeyBindingView.MakeKeyBindingView((EdBindings.Model.BindingsRaw.Bindings.BindingGroup)group, this.DeviceMap, this.ActionMappings)).ToList();
             var filterable = new CollectionViewSource() { Source = new ObservableCollection<KeyBindingView>(dataSource) };
             this.KeyBindings = filterable.View;
 
@@ -110,6 +155,11 @@
             this.txtFilter.Text = placeHolderText;
         }
 
+        /// <summary>
+        /// Texts the filter key up.
+        /// </summary>
+        /// <param name="sender">The sender.</param>
+        /// <param name="e">The <see cref="System.Windows.Input.KeyEventArgs"/> instance containing the event data.</param>
         private void TxtFilterKeyUp(object sender, System.Windows.Input.KeyEventArgs e)
         {
             var p = new Predicate<object>(item =>
@@ -130,6 +180,11 @@
             }
         }
 
+        /// <summary>
+        /// Texts the filter got focus.
+        /// </summary>
+        /// <param name="sender">The sender.</param>
+        /// <param name="e">The <see cref="RoutedEventArgs"/> instance containing the event data.</param>
         private void TxtFilterGotFocus(object sender, RoutedEventArgs e)
         {
             if (this.txtFilter.Text == placeHolderText)
@@ -139,15 +194,24 @@
 
         }
 
+        /// <summary>
+        /// Texts the filter lost focus.
+        /// </summary>
+        /// <param name="sender">The sender.</param>
+        /// <param name="e">The <see cref="RoutedEventArgs"/> instance containing the event data.</param>
         private void TxtFilterLostFocus(object sender, RoutedEventArgs e)
         {
             if (string.IsNullOrWhiteSpace(this.txtFilter.Text))
             {
                 this.txtFilter.Text = placeHolderText;
             }
-
         }
 
+        /// <summary>
+        /// Menus the item click.
+        /// </summary>
+        /// <param name="sender">The sender.</param>
+        /// <param name="e">The <see cref="RoutedEventArgs"/> instance containing the event data.</param>
         private void MenuItemClick(object sender, RoutedEventArgs e)
         {
             var dialog = new AboutWindow();

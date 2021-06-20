@@ -2,7 +2,10 @@
 {
     using EdBindings.Model.BindingsRaw.Bindings;
 
+    using Newtonsoft.Json;
+
     using System.Collections.Generic;
+    using System.IO;
     using System.Linq;
 
     /// <summary>
@@ -35,6 +38,16 @@
             }
 
             return this.Controls.FirstOrDefault(c => c.DeviceId.ToUpperInvariant() == binding.Device.ToUpperInvariant() && c.ControlValue.ToUpperInvariant() == binding.Key.ToUpperInvariant());
+        }
+
+        /// <summary>
+        /// Opens the specified path.
+        /// </summary>
+        /// <param name="path">The path.</param>
+        /// <returns>DeviceMap.</returns>
+        public static DeviceMap Open(string path)
+        {
+            return JsonConvert.DeserializeObject<DeviceMap>(File.ReadAllText(path));
         }
     }
 }

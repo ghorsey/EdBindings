@@ -3,6 +3,7 @@
     using EdBindings.Model.BindingsRaw.Bindings;
 
     using System;
+    using System.Collections.Generic;
     using System.Diagnostics;
     using System.Linq;
 
@@ -61,11 +62,14 @@
         /// <param name="group">The group.</param>
         /// <param name="deviceMap">The device map.</param>
         /// <returns>KeyBindingView.</returns>
-        public static KeyBindingView MakeKeyBindingView(BindingGroup group, DeviceMap deviceMap)
+        public static KeyBindingView MakeKeyBindingView(BindingGroup group, DeviceMap deviceMap, List<ActionMapping> actionMappings)
         {
             var view = new KeyBindingView();
 
-            view.Action = group.Name;
+            var actionMapping = actionMappings.FirstOrDefault(am => am.Code.Equals(group.Name, StringComparison.OrdinalIgnoreCase));
+            view.Area = actionMapping?.Area ?? string.Empty;
+            view.Category = actionMapping?.Category ?? string.Empty;
+            view.Action = actionMapping?.Action ?? group.Name;
 
             var primary = (BindingDevice)group.Bindings.First(b => new[] { "Binding", "Primary" }.Contains(b.Name));
             var primaryDeviceMap = deviceMap.FindControlMap(primary);
