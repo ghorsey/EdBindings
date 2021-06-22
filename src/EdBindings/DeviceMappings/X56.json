@@ -5,13 +5,13 @@
       "deviceId": "SaitekX56Throttle",
       "deviceName": "Throttle",
       "controlLabel": "Left Dial Backward",
-      "controlValue": "Joy_30"
+      "controlValue": "Joy_31"
     },
     {
       "deviceId": "SaitekX56Throttle",
       "deviceName": "Throttle",
       "controlLabel": "Left Dial Forward",
-      "controlValue": "Joy_31"
+      "controlValue": "Joy_30"
     },
     {
       "deviceId": "SaitekX56Throttle",
