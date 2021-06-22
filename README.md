@@ -9,6 +9,7 @@ so that it can be searchable and mappable to keys.
 
 * Support mapping device codes in Elite to actual labels of device (For example [X56 Bindings](https://www.edrefcard.info/device/SaitekX56).
 * Allows filtering bindings.
+* Includes [VoiceAttack/BindED](https://github.com/alterNERDtive/bindED) variable names.
 
 ## Device Mapping Files
 1. The device mapping files are found in the `DeviceMappings` folder.
