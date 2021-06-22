@@ -55,6 +55,12 @@
         /// <value>The secondary key.</value>
         public string SecondaryKey { get; set; }
 
+        /// <summary>
+        /// Gets or sets the bind ed variable.
+        /// </summary>
+        /// <value>The bind ed variable.</value>
+        public string BindEdVariable { get; set; }
+
 
         /// <summary>
         /// Makes the key binding view.
@@ -80,6 +86,7 @@
             view.PrimaryKey = primaryDeviceMap?.ControlLabel ?? primary.Key;
             view.SecondaryDevice = secondaryDeviceMap?.DeviceName ?? secondary?.Device;
             view.SecondaryKey = secondaryDeviceMap?.ControlLabel ?? secondary?.Key;
+            view.BindEdVariable = $"ed{group.Name}";
 
             return view;
         }

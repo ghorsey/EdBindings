@@ -36,6 +36,7 @@
                 <DataGridTextColumn Header="Primary Key" Binding="{Binding PrimaryKey}"/>
                 <DataGridTextColumn Header="Secondary Device" Binding="{Binding SecondaryDevice}"/>
                 <DataGridTextColumn Header="Secondary Key" Binding="{Binding SecondaryKey}"/>
+                <DataGridTextColumn Header="VoiceAttack/BindED Variable" Binding="{Binding BindEdVariable}"/>
             </DataGrid.Columns>
         </DataGrid>
 
