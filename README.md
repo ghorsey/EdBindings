@@ -7,7 +7,7 @@ so that it can be searchable and mappable to keys.
 
 ## Features
 
-* Support mapping device codes in Elite to actual labels of device (For example [X56 Bindings](https://www.edrefcard.info/device/SaitekX56).
+* Support mapping device codes in Elite to actual labels of device (For example [X56 Bindings](https://www.edrefcard.info/device/SaitekX56)).
 * Allows filtering bindings.
 * Includes [VoiceAttack/BindED](https://github.com/alterNERDtive/bindED) variable names.
 
