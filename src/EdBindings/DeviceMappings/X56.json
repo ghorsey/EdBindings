@@ -208,37 +208,37 @@
     {
       "deviceId": "SaitekX56Throttle",
       "deviceName": "Throttle",
-      "controlLabel": "TG 2 Up",
+      "controlLabel": "TGL 2 Up",
       "controlValue": "Joy_14"
     },
     {
       "deviceId": "SaitekX56Throttle",
       "deviceName": "Throttle",
-      "controlLabel": "TG 2 Down",
+      "controlLabel": "TGL 2 Down",
       "controlValue": "Joy_15"
     },
     {
       "deviceId": "SaitekX56Throttle",
       "deviceName": "Throttle",
-      "controlLabel": "TG 3 Up",
+      "controlLabel": "TGL 3 Up",
       "controlValue": "Joy_16"
     },
     {
       "deviceId": "SaitekX56Throttle",
       "deviceName": "Throttle",
-      "controlLabel": "TG 3 Down",
+      "controlLabel": "TGL 3 Down",
       "controlValue": "Joy_17"
     },
     {
       "deviceId": "SaitekX56Throttle",
       "deviceName": "Throttle",
-      "controlLabel": "TG 4 Up",
+      "controlLabel": "TGL 4 Up",
       "controlValue": "Joy_18"
     },
     {
       "deviceId": "SaitekX56Throttle",
       "deviceName": "Throttle",
-      "controlLabel": "TG 4 Down",
+      "controlLabel": "TGL 4 Down",
       "controlValue": "Joy_19"
     },
     {
